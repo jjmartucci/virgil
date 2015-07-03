@@ -1,0 +1,1182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6029180e-0792-444f-86db-16df62826d9e" name="Default" comment="" />
+    <ignored path="UI-Kit.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="UI-Kit" />
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="_button.scss" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/sass/mixins/_button.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.43010753" vertical-offset="0" max-vertical-offset="720">
+                  <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="_buttons.scss" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/sass/components/elements/_buttons.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.7066052" vertical-offset="0" max-vertical-offset="720">
+                  <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/sass/components/_rollup.scss" />
+        <option value="$PROJECT_DIR$/app/sass/screen.scss" />
+        <option value="$PROJECT_DIR$/build/index.html" />
+        <option value="$PROJECT_DIR$/app/sass/_variables.scss" />
+        <option value="$PROJECT_DIR$/app/sass/mixins/_block-grid.scss" />
+        <option value="$PROJECT_DIR$/app/sass/components/_container.scss" />
+        <option value="$PROJECT_DIR$/app/sass/mixins/_clearfix.scss" />
+        <option value="$PROJECT_DIR$/app/sass/mixins/_container.scss" />
+        <option value="$PROJECT_DIR$/app/js/components/block-grid.jsx" />
+        <option value="$PROJECT_DIR$/app/main.js" />
+        <option value="$PROJECT_DIR$/app/js/elements/Paragraph.jsx" />
+        <option value="$PROJECT_DIR$/app/js/components/block-grid.js" />
+        <option value="$PROJECT_DIR$/app/sass/components/_block-grid.scss" />
+        <option value="$PROJECT_DIR$/app/js/elements/List.jsx" />
+        <option value="$PROJECT_DIR$/app/js/elements/Link.jsx" />
+        <option value="$PROJECT_DIR$/app/js/styleguide.js" />
+        <option value="$PROJECT_DIR$/app/js/ResponsiveTables.js" />
+        <option value="$PROJECT_DIR$/app/js/components/responsive-table.js" />
+        <option value="$PROJECT_DIR$/app/sass/components/_responsive-tables.scss" />
+        <option value="$PROJECT_DIR$/app/js/ui/ResponsiveTables.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/app/js/components/styleguide/1. SiteColors.jsx" />
+        <option value="$PROJECT_DIR$/app/js/components/styleguide/StyleGuideComponent.jsx" />
+        <option value="$PROJECT_DIR$/app/js/styleguide/styleguide.js" />
+        <option value="$PROJECT_DIR$/app/js/components/structures/responsive-table.js" />
+        <option value="$PROJECT_DIR$/app/js/components/structures/block-grid.js" />
+        <option value="$PROJECT_DIR$/app/js/ui/Styleguide.js" />
+        <option value="$PROJECT_DIR$/app/js/components/StyleGuideComponent.jsx" />
+        <option value="$PROJECT_DIR$/app/js/components/styleguide/1.SiteColors.jsx" />
+        <option value="$PROJECT_DIR$/app/js/components/elements/Link.jsx" />
+        <option value="$PROJECT_DIR$/app/js/components/elements/List.jsx" />
+        <option value="$PROJECT_DIR$/app/js/components/structures/ResponsiveTables.jsx" />
+        <option value="$PROJECT_DIR$/app/js/components/styleguide/ColorBlocks.jsx" />
+        <option value="$PROJECT_DIR$/app/js/components/elements/Paragraph.jsx" />
+        <option value="$PROJECT_DIR$/app/js/components/styleguide/2. Headings.jsx" />
+        <option value="$PROJECT_DIR$/app/js/components/structures/BlockGrid.jsx" />
+        <option value="$PROJECT_DIR$/app/js/components/elements/Button.jsx" />
+        <option value="$PROJECT_DIR$/app/sass/components/structures/_modal.scss" />
+        <option value="$PROJECT_DIR$/app/js/components/structures/ModalPopup.jsx" />
+        <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/readme.md" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/app/sass/config/_inputs.scss" />
+        <option value="$PROJECT_DIR$/webpack.config.js" />
+        <option value="$PROJECT_DIR$/app/js/components/styleguide/1. Intro.jsx" />
+        <option value="$PROJECT_DIR$/app/sass/config/_variables.scss" />
+        <option value="$PROJECT_DIR$/app/main.jsx" />
+        <option value="$PROJECT_DIR$/app/js/styleguide/ActionButton.jsx" />
+        <option value="$PROJECT_DIR$/app/sass/styleguide.scss" />
+        <option value="$PROJECT_DIR$/app/sass/components/elements/_buttons.scss" />
+        <option value="$PROJECT_DIR$/app/sass/mixins/_button.scss" />
+      </list>
+    </option>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="86" />
+    <option name="y" value="23" />
+    <option name="width" value="1594" />
+    <option name="height" value="983" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UI-Kit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UI-Kit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UI-Kit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UI-Kit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UI-Kit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UI-Kit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UI-Kit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UI-Kit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UI-Kit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UI-Kit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UI-Kit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mixins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UI-Kit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UI-Kit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UI-Kit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UI-Kit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UI-Kit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UI-Kit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="elements" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UI-Kit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UI-Kit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UI-Kit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UI-Kit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="styleguide" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UI-Kit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UI-Kit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UI-Kit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UI-Kit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="styleguide" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.lastSelected" value="web.server" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="JavaScriptLanguageLevel" value="JSX" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/jmartucci/Dropbox/web_dev/UI-Kit/app/js/components/structures/BlockGrid.jsx" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/js/components" />
+      <recent name="$PROJECT_DIR$/app/js/styleguide" />
+      <recent name="$PROJECT_DIR$/app/js/ui" />
+      <recent name="$PROJECT_DIR$/app/js/components/structures" />
+      <recent name="$PROJECT_DIR$/app/sass/config" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6029180e-0792-444f-86db-16df62826d9e" name="Default" comment="" />
+      <created>1427393548921</created>
+      <option name="number" value="Default" />
+      <updated>1427393548921</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="86" y="23" width="1594" height="983" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29656607" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24090339" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32949308" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/sass/config/_inputs.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="600">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/styleguide.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="640" max-vertical-offset="3600">
+          <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+          <folding>
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/config/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="740">
+          <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/styleguide.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="140" max-vertical-offset="3480">
+          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+          <folding>
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/config/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="480">
+          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/styleguide.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1597" max-vertical-offset="2440">
+          <caret line="97" column="26" selection-start-line="97" selection-start-column="26" selection-end-line="97" selection-end-column="26" />
+          <folding>
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/config/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="480">
+          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/styleguide.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1642" max-vertical-offset="2440">
+          <caret line="97" column="26" selection-start-line="97" selection-start-column="26" selection-end-line="97" selection-end-column="26" />
+          <folding>
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/styleguide.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
+          <caret line="0" column="14" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="420">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/components/structures/ResponsiveTables.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="100" max-vertical-offset="580">
+          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/main.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="600" max-vertical-offset="900">
+          <caret line="30" column="51" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/components/_rollup.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16806723" vertical-offset="0" max-vertical-offset="476">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16806723" vertical-offset="0" max-vertical-offset="560">
+          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="501">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/components/_container.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16806723" vertical-offset="0" max-vertical-offset="476">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/mixins/_block-grid.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6302521" vertical-offset="0" max-vertical-offset="476">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/mixins/_clearfix.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5462185" vertical-offset="0" max-vertical-offset="476">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/mixins/_container.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.084033616" vertical-offset="0" max-vertical-offset="476">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/components/_block-grid.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46594983" vertical-offset="0" max-vertical-offset="558">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4682676" vertical-offset="376387" max-vertical-offset="431620">
+          <caret line="16616" column="72" selection-start-line="16616" selection-start-column="72" selection-end-line="16616" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/components/_responsive-tables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.10752688" vertical-offset="0" max-vertical-offset="558">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/ui/ResponsiveTablesUI.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27444252" vertical-offset="100" max-vertical-offset="1300">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/ui/Styleguide.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8284734" vertical-offset="117" max-vertical-offset="720">
+          <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/components/StyleGuideComponent.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38250428" vertical-offset="137" max-vertical-offset="980">
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/components/styleguide/2.SiteColors.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6174957" vertical-offset="360" max-vertical-offset="2320">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/components/elements/Link.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13722126" vertical-offset="20" max-vertical-offset="760">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/components/elements/Paragraph.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34305316" vertical-offset="0" max-vertical-offset="583">
+          <caret line="10" column="5" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/components/styleguide/ColorBlocks.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5831904" vertical-offset="40" max-vertical-offset="960">
+          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/components/styleguide/2. Headings.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44596913" vertical-offset="60" max-vertical-offset="740">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/components/structures/ResponsiveTables.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41420117" vertical-offset="0" max-vertical-offset="2380">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/components/structures/BlockGrid.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.147929" vertical-offset="0" max-vertical-offset="740">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/components/elements/Button.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4733728" vertical-offset="0" max-vertical-offset="680">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/components/structures/_modal.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41628265" vertical-offset="89" max-vertical-offset="780">
+          <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33179724" vertical-offset="4" max-vertical-offset="720">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/components/structures/ModalPopup.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6804734" vertical-offset="0" max-vertical-offset="2560">
+          <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/components/elements/List.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6804734" vertical-offset="240" max-vertical-offset="1020">
+          <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.49612403" vertical-offset="0" max-vertical-offset="2140">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/config/_inputs.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5222734" vertical-offset="0" max-vertical-offset="680">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0295858" vertical-offset="0" max-vertical-offset="676">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.016897082" vertical-offset="289" max-vertical-offset="940">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+          <folding>
+            <marker date="1435782981000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;webpack-css-example&quot;...}" />
+            <marker date="1435782981000" expanded="true" signature="-1:-1" placeholder="{&quot;build&quot;: &quot;webpack&quot;...}" />
+            <marker date="1435782981000" expanded="true" signature="-1:-1" placeholder="{&quot;type&quot;: &quot;git&quot;...}" />
+            <marker date="1435782981000" expanded="true" signature="-1:-1" placeholder="{&quot;url&quot;: &quot;https://github.com/bensmithett/webpack-css-example/issues&quot;...}" />
+            <marker date="1435782981000" expanded="true" signature="-1:-1" placeholder="{&quot;autoprefixer-loader&quot;: &quot;1.1.0&quot;...}" />
+            <marker date="1435782981000" expanded="true" signature="-1:-1" placeholder="{&quot;file-loader&quot;: &quot;^0.8.4&quot;...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6804734" vertical-offset="180" max-vertical-offset="1200">
+          <caret line="32" column="14" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
+          <folding>
+            <marker date="1435934158000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1435934158000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435934158000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435934158000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435934158000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1435934158000" expanded="true" signature="-1:-1" placeholder="{&quot;test&quot;: /\.js$/...}" />
+            <marker date="1435934158000" expanded="true" signature="-1:-1" placeholder="{&quot;test&quot;: /\.scss$/...}" />
+            <marker date="1435934158000" expanded="true" signature="-1:-1" placeholder="{&quot;test&quot;: /\.html/...}" />
+            <marker date="1435934158000" expanded="true" signature="-1:-1" placeholder="{&quot;test&quot;: /\.(png|jpg)$/...}" />
+            <marker date="1435934158000" expanded="true" signature="-1:-1" placeholder="{&quot;test&quot;: /\.jsx$/...}" />
+            <marker date="1435934158000" expanded="true" signature="-1:-1" placeholder="{&quot;filename&quot;: &quot;[name].js&quot;...}" />
+            <marker date="1435934158000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1435934158000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/components/styleguide/1. Intro.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17751479" vertical-offset="0" max-vertical-offset="676">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="22" />
+          <folding>
+            <marker date="1435934568000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435934568000" expanded="true" signature="-1:-1" placeholder="{&quot;hideCode&quot;: true...}" />
+            <marker date="1435934568000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435934568000" expanded="true" signature="-1:-1" placeholder="&lt;xml/&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/main.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.49704143" vertical-offset="3584" max-vertical-offset="4480">
+          <caret line="190" column="38" selection-start-line="190" selection-start-column="38" selection-end-line="190" selection-end-column="38" />
+          <folding>
+            <marker date="1435934915000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435934915000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435934915000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435934915000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435934915000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435934915000" expanded="true" signature="-1:-1" placeholder="&lt;xml/&gt;" />
+            <marker date="1435934915000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435934915000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435934915000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435934915000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435934915000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435934915000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435934915000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435934915000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435934915000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435934915000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435934915000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435934915000" expanded="true" signature="-1:-1" placeholder="&lt;xml/&gt;" />
+            <marker date="1435934915000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435934915000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435934915000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435934915000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435934915000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435934915000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435934915000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435934915000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435934915000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435934915000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435934915000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435934915000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435934915000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435934915000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435934915000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435934915000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435934915000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435934915000" expanded="true" signature="-1:-1" placeholder="&lt;xml/&gt;" />
+            <marker date="1435934915000" expanded="true" signature="-1:-1" placeholder="&lt;xml/&gt;" />
+            <marker date="1435934915000" expanded="true" signature="-1:-1" placeholder="&lt;xml/&gt;" />
+            <marker date="1435934915000" expanded="true" signature="-1:-1" placeholder="&lt;xml/&gt;" />
+            <marker date="1435934915000" expanded="true" signature="-1:-1" placeholder="&lt;xml/&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/styleguide/ActionButton.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.52662724" vertical-offset="244" max-vertical-offset="920">
+          <caret line="30" column="11" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
+          <folding>
+            <marker date="1435935924000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435935924000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435935924000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435935924000" expanded="true" signature="-1:-1" placeholder="{&quot;toggled&quot;: false...}" />
+            <marker date="1435935924000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435935924000" expanded="true" signature="-1:-1" placeholder="{&quot;toggled&quot;: true...}" />
+            <marker date="1435935924000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435935924000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435935924000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435935924000" expanded="true" signature="-1:-1" placeholder="&lt;xml/&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/styleguide.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34869432" vertical-offset="1733" max-vertical-offset="3700">
+          <caret line="98" column="4" selection-start-line="98" selection-start-column="4" selection-end-line="98" selection-end-column="4" />
+          <folding>
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1435936447000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/components/elements/_buttons.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7066052" vertical-offset="0" max-vertical-offset="720">
+          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/config/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5529954" vertical-offset="0" max-vertical-offset="1200">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/mixins/_button.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43010753" vertical-offset="0" max-vertical-offset="720">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

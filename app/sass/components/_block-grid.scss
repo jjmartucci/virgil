@@ -1,0 +1,13 @@
+@import "../config/variables";
+@import "../mixins/block-grid";
+
+.block-grid{
+  @include block-grid(4, 20px, '.block-grid-item');
+}
+
+.block-grid-item{
+  border: 1px solid $box-border-color;
+  margin-bottom: 40px;
+  min-height: 120px;
+}
+

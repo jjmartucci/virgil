@@ -1,0 +1,13 @@
+.table-with-clone{
+  display: none;
+  @media screen and (min-width: 600px){
+    display: table;
+  }
+}
+
+.spanned-clone-table{
+  display: block;
+  @media screen and (min-width: 600px){
+    display: none;
+  }
+}

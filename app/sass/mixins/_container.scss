@@ -1,0 +1,7 @@
+@import "clearfix";
+
+@mixin container($width){
+  max-width: $width;
+  margin: 0 auto;
+  @include clearfix;
+}

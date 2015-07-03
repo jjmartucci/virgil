@@ -1,0 +1,30 @@
+@import "../../config/variables";
+@import "../../mixins/button";
+
+.button {
+
+  padding: 8px 20px;
+  text-transform: uppercase;
+
+  &--primary{
+    @include button(
+      $default-button-background,
+      $default-button-border-color,
+      $default-button-text-color
+    )
+  }
+
+  &--nav-toggle{
+    @include button(
+      transparent,
+      $color-text-on-dark,
+      $color-text-on-dark,
+      $color-base,
+      darken($color-base, 10%),
+      $color-text-on-dark
+    );
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+

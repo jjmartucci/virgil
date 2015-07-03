@@ -1,0 +1,53 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
+
+$box-border-color: #555;
+
+$color-primary: #A9D8E8 !default;
+$color-accent-one: #E09FA3 !default;
+$color-base: #A8548F !default;
+$color-text-on-dark: #EDF1FF;
+$color-text-on-light: #514646;
+
+// Typography
+$base-font-family: 'Open Sans', sans-serif;
+$base-font-size: 15px;
+$base-line-height: 1.5;
+$nav-background-color: $color-base;
+$nav-text-color: $color-text-on-dark;
+
+$base-header-size: $base-font-size * 1.2;
+$base-header-line-height: 1.2;
+
+$header-sizes: (
+  one: $base-font-size * 2.4,
+  two: $base-font-size * 2,
+  three: $base-font-size * 1.8,
+  four: $base-font-size * 1.6,
+  five: $base-font-size * 1.2,
+  six: $base-font-size * 1,
+);
+
+// Z-Indexes
+$below-base: -1;
+$base: 1;
+$nav: 500;
+$aboveNav: 600;
+$screen: 800;
+$modal: 900;
+
+// Buttons
+$default-button-background: $color-base;
+$default-button-border-color: darken($color-base, 5%);
+$default-button-text-color: $color-text-on-dark;
+$base-border-radius: 1px;
+
+// Modals
+$modal-border: $color-primary;
+$modal-background-color: white;
+
+
+// Transitions
+$default-transition: all .3s ease-in-out;
+
+// Styleguide Specific Variables
+

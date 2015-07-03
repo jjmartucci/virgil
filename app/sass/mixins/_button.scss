@@ -1,0 +1,31 @@
+@mixin button(
+  $background,
+  $border,
+  $text,
+  $border-radius: $base-border-radius,
+  $bgHover : darken($background, 5%),
+  $borderHover : $border,
+  $textHover : $text
+  ){
+
+  border: 1px solid $border;
+  border-radius: $base-border-radius;
+  color: $text;
+  background: $background;
+  transition: all .2s linear;
+
+
+  &:focus, &:active{
+    border: 1px solid $borderHover;
+    color: $textHover;
+    background: $bgHover;
+    outline: none;
+  }
+
+  &:hover{
+    border: 1px solid $borderHover;
+    color: $textHover;
+    background: $bgHover;
+    outline: none;
+  }
+}

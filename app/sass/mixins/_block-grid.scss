@@ -1,0 +1,16 @@
+@mixin block-grid($numBlocks, $gutterWidth, $childSelector) {
+
+  $gutterTotal: ($numBlocks - 1) * $gutterWidth;
+
+  #{$childSelector}{
+    box-sizing: border-box;
+    margin-right: $gutterWidth;
+    width: calc((100% - #{$gutterTotal} ) / #{$numBlocks} );
+    float: left;
+
+    &:nth-child(#{$numBlocks}n){
+      margin-right: 0;
+    }
+  }
+}
+
