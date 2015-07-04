@@ -1,7 +1,3 @@
-# TODO 
-- Allow for tags that can enclose text.
-- Filtering, only show selected components.
-
 # Virgil
 Guiding you through the Hell that is front-end development.
 
@@ -52,9 +48,10 @@ Inside app:
 ## Requirements
 None. Everything displayed in the styleguide is HTML and JS.
 
-## Compatability
-The goal is IE10+
-
 ## Reference Guide
 - [Webpack Dev Server](http://webpack.github.io/docs/webpack-dev-server.html)
 - [React Reusable Components](https://facebook.github.io/react/docs/reusable-components.html)
+
+# TODO 
+- Allow for tags that can enclose text.
+- Filtering, only show selected components.
