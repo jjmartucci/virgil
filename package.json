@@ -1,8 +1,8 @@
 {
-  "name": "webpack-css-example",
-  "version": "1.0.0",
-  "description": "Example repo showing a webpack CSS build",
-  "main": "index.js",
+  "name": "virgil",
+  "version": "0.0.1",
+  "description": "Front end styleguide built on React",
+  "main": "index.html",
   "scripts": {
     "build": "webpack",
     "start" : "webpack-dev-server",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bensmithett/webpack-css-example.git"
+    "url": "https://github.com/jjmartucci/virgil.git"
   },
-  "author": "",
+  "author": "Joseph Martucci",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bensmithett/webpack-css-example/issues"
+    "url": "https://github.com/jjmartucci/issues"
   },
-  "homepage": "https://github.com/bensmithett/webpack-css-example",
+  "homepage": "",
   "dependencies": {
     "autoprefixer-loader": "1.1.0",
     "babel-core": "^4.7.5",
@@ -31,11 +31,8 @@
     "react-to-jsx": "^1.3.2",
     "sass-loader": "^0.4.1",
     "style-loader": "^0.8.3",
-    "velocity-animate": "^1.2.2",
-    "webpack": "^1.7.2"
-  },
-  "devDependencies": {
+    "webpack": "^1.7.2",
     "file-loader": "^0.8.4",
     "jsx-loader": "^0.13.2"
-  }
+  },
 }
