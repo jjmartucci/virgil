@@ -5,9 +5,7 @@ var StyleGuideComponent = React.createClass({
 
     render: function() {
 
-        var code = reactToJsx(this.props.code.func);
-
-        var reactComponent = this.props.code.func();
+        var code = reactToJsx(< this.props.code.func />);
 
         var mockData = this.props.code.mock ? this.props.code.mock : false;
 
@@ -28,7 +26,7 @@ var StyleGuideComponent = React.createClass({
                     {this.props.code.notes}
                 </div>
                 <div className="react-component">
-                {<this.props.code.func {...mockData}/>}
+                    <this.props.code.func {...mockData} />
                 </div>
             { reactCode }
             { codeBlock }

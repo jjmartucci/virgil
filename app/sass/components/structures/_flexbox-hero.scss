@@ -1,0 +1,33 @@
+@import "../../mixins/container";
+@import "../../config/variables";
+
+.flexbox-hero{
+  background-size: cover;
+  background-position: center;
+  height: 30vw;
+  min-height: 240px;
+  max-height: 360px;
+  background-blend-mode: multiply;
+  margin-bottom: 60px;
+
+
+  &__container{
+    @include container(1024px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  &__title{
+    color: $flexbox-hero-title-color;
+    font-size: $flexbox-hero-title-size;
+    text-transform: uppercase;
+    margin: 40px 0 20px 0;
+  }
+
+  &__copy{
+    color: $flexbox-hero-copy-color;
+    font-size: $flexbox-hero-copy-size;
+  }
+}

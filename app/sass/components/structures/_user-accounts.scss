@@ -1,0 +1,12 @@
+@import "../../mixins/_container";
+
+.user-accounts{
+  @include container(1024px);
+
+  &__column{
+    padding: 20px 40px;
+    width: 50%;
+    float: left;
+  }
+}
+

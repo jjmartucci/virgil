@@ -36,6 +36,7 @@ const config = {
                 test: /\.jsx$/,
                 loader: 'jsx-loader?insertPragma=React.DOM&harmony'
             }
+
         ]
     },
     output: {
@@ -49,7 +50,7 @@ const config = {
     resolve: {
         extensions: ["", ".js", ".jsx", ".scss"],
         modulesDirectories: ["app", "node_modules"],
-    },
+    }
 };
 
 module.exports = config;

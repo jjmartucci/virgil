@@ -1,5 +1,4 @@
 var React = require("react");
-var StyleGuideComponent = require("js/components/StyleGuideComponent");
 
 require ("sass/components/_block-grid.scss");
 

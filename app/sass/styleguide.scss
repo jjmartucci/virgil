@@ -1,3 +1,9 @@
+/*
+ * This file styles the styleguide.
+ * If you want to change the look of the styleguide itself, start here.
+ */
+
+@import "config/normalize";
 @import "config/variables";
 
 *{
@@ -20,33 +26,10 @@ body{
   color: $color-text-on-light;
 }
 
-h1, h2, h3, h4, h5, h6{
-  font-size: $base-header-size;
-  line-height: $base-header-line-height;
-}
 
-h1{
-  font-size: map-get($header-sizes, one);
-}
-
-h2{
-  font-size: map-get($header-sizes, two);
-}
-
-h3{
-  font-size: map-get($header-sizes, three);
-}
-
-h4{
-  font-size: map-get($header-sizes, four);
-}
-
-h5{
-  font-size: map-get($header-sizes, five);
-}
-
-h6{
-  font-size: map-get($header-sizes, six);
+.styleguide-nav-header{
+  text-transform: uppercase;
+  font-size: $base-font-size;
 }
 
 #nav{
@@ -75,6 +58,11 @@ h6{
   body.menu-open &{
     transform: translateX(0);
   }
+
+  .styleguide-nav{
+    height: calc(100vh - 264px);
+    overflow: scroll;
+  }
 }
 
 #main{
@@ -102,7 +90,7 @@ h6{
   left: 20px;
   z-index: 100;
   width: 260px;
-  transform: translateY(143px);
+  transform: translateY(160px);
   transition: $default-transition;
   z-index: $aboveNav;
 
@@ -111,11 +99,12 @@ h6{
   }
 }
 
-.button-nav-toggle{
+.button--nav-toggle{
   display: block;
   width: 100%;
   margin-bottom: 10px;
   background: $color-base;
+  font-size: 12px;
 
   body.menu-open &{
     background: transparent;
@@ -143,38 +132,5 @@ h6{
   }
 }
 
-.color-grid{
-  .color-row{
-    .color-block{
-      min-height: 100px;
-      position: relative;
-
-      .color-details {
-        position: absolute;
-        bottom: 0%;
-        left: 0%;
-        width: 100%;
 
 
-        .color-detail {
-          display: block;
-          background: rgba(255,255,255,.8);
-          padding: 4px 8px;
-          font-size: 13px;
-        }
-      }
-    }
-  }
-}
-
-.color-cube-primary{
-  width: 50%;
-  padding-bottom: 50%;
-  float: left;
-}
-
-.color-cube{
-  width: 25%;
-  padding-bottom: 25%;
-  float: left;
-}

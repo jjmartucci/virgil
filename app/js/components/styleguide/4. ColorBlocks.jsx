@@ -1,5 +1,6 @@
 var Chromath = require('chromath');
 var React = require("react");
+style = require("sass/components/styleguide/_color-blocks.scss");
 
 var ColorCubes = React.createClass({
     statics: {
@@ -21,13 +22,13 @@ var ColorCubes = React.createClass({
 
             if(index === 0){
                 blocks.push(
-                    <div style={style} className="color-cube-primary"></div>
+                    <div style={style} className="color-cube-primary" key={index}></div>
                     );
             }
             else{
                 blocks.push(
 
-                    <div style={style} className="color-cube"></div>
+                    <div style={style} className="color-cube" key={index}></div>
                         );
 
             }

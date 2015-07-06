@@ -1,0 +1,28 @@
+@import "../../mixins/_clearfix";
+
+.color-grid{
+
+  @include clearfix();
+
+  &__row{
+
+    .color-block{
+      min-height: 100px;
+      position: relative;
+
+      .color-details {
+        position: absolute;
+        bottom: 0%;
+        left: 0%;
+        width: 100%;
+
+        .color-detail {
+          display: block;
+          background: rgba(255,255,255,.8);
+          padding: 4px 8px;
+          font-size: 13px;
+        }
+      }
+    }
+  }
+}

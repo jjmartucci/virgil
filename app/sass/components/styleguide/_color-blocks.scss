@@ -1,0 +1,19 @@
+@import "../../mixins/clearfix";
+
+.color-cubes{
+  @include clearfix;
+
+  .color-cube-primary{
+    width: 50%;
+    padding-bottom: 50%;
+    float: left;
+  }
+
+  .color-cube{
+    width: 25%;
+    padding-bottom: 25%;
+    float: left;
+  }
+}
+
+

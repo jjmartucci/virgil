@@ -1,6 +1,7 @@
 var React = require("react");
+styles = require("sass/components/elements/_headings.scss");
 
-var Intro = React.createClass({
+var Headings = React.createClass({
 
     statics: {
         hideReactMarkup: true,
@@ -26,5 +27,5 @@ var Intro = React.createClass({
     }
 });
 
-module.exports = Intro;
+module.exports = Headings;
 

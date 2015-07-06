@@ -1,12 +1,18 @@
 @import "../../config/variables";
 @import "../../mixins/button";
 
+a.button{
+  display: inline-block;
+}
+
 .button {
 
   padding: 8px 20px;
   text-transform: uppercase;
+  text-decoration: none;
 
   &--primary{
+    @extend .button;
     @include button(
       $default-button-background,
       $default-button-border-color,

@@ -1,0 +1,19 @@
+@import "../../config/variables";
+
+.blockquote{
+  font-family: $serif;
+  color: $color-text-on-light;
+  font-size: $font-size-large;
+  border-color: $color-primary;
+  border-width: 1px 0;
+  border-style: solid;
+  padding: 20px;
+
+  &__citation{
+    display: block;
+    font-size: $base-font-size;
+    margin-top: 20px;
+    text-align: right;
+  }
+
+}

@@ -1,0 +1,30 @@
+@import "../../config/variables";
+
+h1, h2, h3, h4, h5, h6{
+  font-size: $base-header-size;
+  line-height: $base-header-line-height;
+}
+
+.heading-level-one{
+  font-size: map-get($header-sizes, one);
+}
+
+.heading-level-two{
+  font-size: map-get($header-sizes, two);
+}
+
+.heading-level-three{
+  font-size: map-get($header-sizes, three);
+}
+
+.heading-level-four{
+  font-size: map-get($header-sizes, four);
+}
+
+.heading-level-five{
+  font-size: map-get($header-sizes, five);
+}
+
+.heading-level-six{
+  font-size: map-get($header-sizes, six);
+}

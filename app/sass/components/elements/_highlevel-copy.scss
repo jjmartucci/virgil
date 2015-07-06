@@ -1,0 +1,9 @@
+@import "../../config/variables";
+
+.highlevel-copy{
+  font-size: $font-size-large;
+
+  &--centered{
+    text-align: center;
+  }
+}

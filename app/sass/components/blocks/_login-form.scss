@@ -1,0 +1,20 @@
+@import "../../config/variables";
+
+.login-form{
+  &__text-input{
+    display: block;
+    padding: 4px 8px;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  &__button{
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  &__forgot-password{
+    display: block;
+    font-size: $font-size-small;
+  }
+}

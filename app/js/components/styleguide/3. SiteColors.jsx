@@ -1,10 +1,11 @@
 var Chromath = require('chromath');
 var React = require("react");
+style = require("sass/components/styleguide/_color-grid.scss");
 
 var ColorRow = React.createClass({
     render: function(){
         return(
-            <div className="color-row">{this.props.tableData}</div>
+            <div className="color-grid__row">{this.props.tableData}</div>
         )
     }
 });
@@ -17,9 +18,7 @@ var ColorGrid = React.createClass({
 
         notes: function() {
             return(
-                <div className="component-notes">
-                    <p>These are some notes. Neato burrito!</p>
-                </div>
+                <p>These are some notes. Neato burrito!</p>
             );
         },
 
@@ -70,14 +69,14 @@ var ColorGrid = React.createClass({
                 }
 
                 if(step != 0){
-                    var adjustedBy = <span className="color-detail">{step + '%'}</span>;
+                    var adjustedBy = <span className="color-detail" key={i}>{step + '%'}</span>;
                 }
                 else{
-                    var adjustedBy = <span className="color-detail">Base</span>;
+                    var adjustedBy = <span className="color-detail" key={i}>Base</span>;
                 }
 
                 rowData.push(
-                    <div className="color-block" style={divStyle}>
+                    <div className="color-block" style={divStyle} key={i}>
                         <div className="color-details">
                             {adjustedBy}
                             <span className="color-detail">{color}</span>
@@ -87,7 +86,7 @@ var ColorGrid = React.createClass({
             }
 
             colorGrid.push(
-                <ColorRow tableData={rowData} />
+                <ColorRow tableData={rowData} key={s}/>
             )
         }
 

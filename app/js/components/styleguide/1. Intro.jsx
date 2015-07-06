@@ -6,7 +6,7 @@ var Intro = React.createClass({
     statics: {
         hideCode: true,
         hideReactMarkup: true,
-        hideFromNav: true
+        title: "Intro"
     },
 
     render: function() {

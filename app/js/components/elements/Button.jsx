@@ -1,5 +1,4 @@
 var React = require("react");
-var classNames = require('classnames');
 require ("sass/components/elements/_buttons");
 
 var Button = React.createClass({
@@ -9,7 +8,7 @@ var Button = React.createClass({
         mock: function(){
             return({
                 text: "Button",
-                classes: ["button-primary"]
+                className: "button button--primary"
             });
         }
     },
@@ -18,11 +17,11 @@ var Button = React.createClass({
 
         var { text, ...other } = this.props;
 
-        return (
-            <button {...other}>{text}</button>
-        );
+return (
+    <button {...other}>{text}</button>
+);
 
-    }
+}
 
 });
 

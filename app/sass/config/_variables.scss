@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
+@import url(http://fonts.googleapis.com/css?family=Lora:400,700,400italic);
 
 $box-border-color: #555;
 
@@ -9,8 +10,13 @@ $color-text-on-dark: #EDF1FF;
 $color-text-on-light: #514646;
 
 // Typography
+$sans-serif: 'Open Sans', sans-serif;
+$serif: 'Lora', serif;
 $base-font-family: 'Open Sans', sans-serif;
+
 $base-font-size: 15px;
+$font-size-small: $base-font-size * .8;
+$font-size-large: $base-font-size * 1.2;
 $base-line-height: 1.5;
 $nav-background-color: $color-base;
 $nav-text-color: $color-text-on-dark;
@@ -44,6 +50,12 @@ $base-border-radius: 1px;
 // Modals
 $modal-border: $color-primary;
 $modal-background-color: white;
+
+// Flexbox Hero
+$flexbox-hero-title-color: white;
+$flexbox-hero-title-size: 64px;
+$flexbox-hero-copy-color: darken(white, 3%);
+$flexbox-hero-copy-size: 18px;
 
 
 // Transitions
