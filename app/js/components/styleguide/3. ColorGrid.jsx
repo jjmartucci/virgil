@@ -18,7 +18,7 @@ var ColorGrid = React.createClass({
 
         notes: function() {
             return(
-                <p>These are some notes. Neato burrito!</p>
+                <p>These are some notes. You can put whatever you want here, even inline JavaScript.</p>
             );
         },
 

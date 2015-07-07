@@ -8,6 +8,7 @@ $color-accent-one: #E09FA3 !default;
 $color-base: #A8548F !default;
 $color-text-on-dark: #EDF1FF;
 $color-text-on-light: #514646;
+$color-alert: hsl(0, 60%, 50%);
 
 // Typography
 $sans-serif: 'Open Sans', sans-serif;
@@ -45,6 +46,14 @@ $modal: 900;
 $default-button-background: $color-base;
 $default-button-border-color: darken($color-base, 5%);
 $default-button-text-color: $color-text-on-dark;
+$secondary-button-background: $color-accent-one;
+$secondary-button-border-color: darken($color-accent-one, 5%);
+$secondary-button-text-color: white;
+
+$alert-button-background: $color-alert;
+$alert-button-border-color: darken($color-alert, 5%);
+$alert-button-text-color: white;
+
 $base-border-radius: 1px;
 
 // Modals

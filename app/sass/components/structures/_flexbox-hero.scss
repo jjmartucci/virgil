@@ -17,13 +17,14 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    height: 100%;
   }
 
   &__title{
     color: $flexbox-hero-title-color;
     font-size: $flexbox-hero-title-size;
     text-transform: uppercase;
-    margin: 40px 0 20px 0;
+    margin: 0 0 20px 0;
   }
 
   &__copy{

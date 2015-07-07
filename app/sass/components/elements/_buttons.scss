@@ -20,6 +20,24 @@ a.button{
     )
   }
 
+  &--secondary{
+    @extend .button;
+    @include button(
+      $secondary-button-background,
+      $secondary-button-border-color,
+      $secondary-button-text-color
+    )
+  }
+
+  &--alert{
+    @extend .button;
+    @include button(
+            $alert-button-background,
+            $alert-button-border-color,
+            $alert-button-text-color
+    )
+  }
+
   &--nav-toggle{
     @include button(
       transparent,
