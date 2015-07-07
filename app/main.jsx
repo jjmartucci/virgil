@@ -222,8 +222,13 @@ var StyleGuide = React.createClass({
 
         if(route){
 
-            var Component = require("js/components/pages/" + route);
-            render = < Component />;
+            try {
+                // a path we KNOW is totally bogus and not a module
+                var Component = require("js/components/pages/" + route);
+                render = < Component />;
+            }
+            catch (e) {
+            }
         }
 
         else{
