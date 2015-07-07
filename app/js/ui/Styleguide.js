@@ -2,7 +2,6 @@ var hljs = require("highlight.js");
 var beautify_html = require('js-beautify').html;
 
 var styleguideUI = function() {
-    console.log('run');
 
     var renderedComponents = document.getElementsByClassName('styleguide-item');
 
