@@ -39,6 +39,10 @@ Each component can use React's [statics](https://facebook.github.io/react/docs/c
 - mock - Object with properties you wish to pass to the element in the styleguide. This can be used in place of (or along with) getDefaultProps to load in properties that will appear in the styleguide that can be removed from the actual project. Note that this will only work for the base level component, components that include other components will require properties passed to them.
 - route - Loads the component in a new page. Handy for full page views. At the moment it only works if the component lives in `js/components/pages`.
 
+#Webpack
+- Running `webpack` from the command line will build out the build folder.
+- Running `webpack-dev-server` will fire up a local server at `localhost:8080` that will allow you to see updates in real time. This does _not_ add files to the build folder.
+
 ## Structure
 app is where all of the code lives. Build is where the compiled code gets spit out.
 Inside app:
