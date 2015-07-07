@@ -20810,7 +20810,7 @@
 	        var $__0=      this.props,backgroundImgSrc=$__0.backgroundImgSrc,titleText=$__0.titleText,copy=$__0.copy,cta=$__0.cta,other=(function(source, exclusion) {var rest = {};var hasOwn = Object.prototype.hasOwnProperty;if (source == null) {throw new TypeError();}for (var key in source) {if (hasOwn.call(source, key) && !hasOwn.call(exclusion, key)) {rest[key] = source[key];}}return rest;})($__0,{backgroundImgSrc:1,titleText:1,copy:1,cta:1});
 	        var ctaButton;
 	        var heroStyle = {
-	            backgroundImage: 'linear-gradient(rgba(169, 216, 232, 1),  rgba(169, 216, 232, .8)), url(/' + backgroundImgSrc + ')',
+	            backgroundImage: 'linear-gradient(rgba(169, 216, 232, 1),  rgba(169, 216, 232, .8)), url(' + backgroundImgSrc + ')',
 	        }
 
 	        if(cta){
