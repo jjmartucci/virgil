@@ -4,7 +4,7 @@ Guiding you through the Hell that is front-end development.
 ## Fire it Up
 1. Clone this repo.
 2. Run `npm install`
-3. Visit localhost:8080
+3. Visit localhost:1234
 
 ## What is It
 Virgil is a styleguide and component generator built on React + Webpack.

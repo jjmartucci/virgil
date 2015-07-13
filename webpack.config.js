@@ -50,6 +50,9 @@ const config = {
     resolve: {
         extensions: ["", ".js", ".jsx", ".scss"],
         modulesDirectories: ["app", "node_modules"],
+    },
+    devServer:{
+        port: 1234
     }
 };
 
