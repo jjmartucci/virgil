@@ -10,7 +10,7 @@ var LoginForm = React.createClass({
         mock: function(){
             return({
                 text: "Form",
-                classeName: "login-form"
+                className: "login-form"
             });
         }
     },

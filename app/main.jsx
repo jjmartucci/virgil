@@ -4,14 +4,18 @@ var config = require("config");
 var styleguideUI = require("js/ui/Styleguide");
 
 // These components construct the styleguide. Delete at your own risk.
-var ActionButton = require("js/styleguide/ActionButton");
-var StyleGuideComponent = require("js/styleguide/StyleGuideComponent");
-var Link = require("js/styleguide/Link");
-var List = require("js/styleguide/List");
+let ActionButton = require("js/styleguide/ActionButton");
+let StyleGuideComponent = require("js/styleguide/StyleGuideComponent");
+let Link = require("js/styleguide/Link");
+let List = require("js/styleguide/List");
+let Constrainer = require("js/styleguide/Constrainer");
+
+// SVG Icons
 let ReactIcon = require("icons/react-button");
 let CodeIcon = require("icons/code-button");
 let NotesIcon = require("icons/notes-button");
 let MenuIcon = require("icons/menu-button");
+
 let initialRender = true;
 let singlePage = false;
 
@@ -177,6 +181,10 @@ var OffCanvas = React.createClass({
     render: function () {
         return (
             <div id="menu-toggle">
+                <Constrainer
+                  placeholder="Limit to XXX pixels"
+                  className="input"
+                />
                 <ActionButton
                     action={this.menuToggle}
                     text="Hide Menu"

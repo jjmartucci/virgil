@@ -27,16 +27,16 @@ body{
 }
 
 #nav{
-  transform: translateX(-300px);
+  transform: translateX($nav-width * -1);
   transition: all .2s ease-in-out;
   transform-origin: left;
   position: fixed;
   top: 0;
   left: 0;
-  width: 300px;
+  width: $nav-width;
   height: 100vh;
   background: $nav-background-color;
-  padding: 40px 20px 0;
+  padding: $nav-padding;
   color: $nav-text-color;
   z-index: $nav;
 
@@ -46,6 +46,7 @@ body{
 
     &:hover, &:focus{
       color: $nav-text-color-hover;
+      font-weight: $semi-bold;
       text-decoration: underline;
     }
   }
@@ -57,7 +58,7 @@ body{
 }
 
 .styleguide-nav{
-  height: calc(100vh - 71px);
+  height: calc(100vh - (#{$nav-padding} * 2) - #{$toggle-menu-height});
   overflow: scroll;
 
   &__header{
@@ -68,14 +69,13 @@ body{
 
 #main{
   transition: all .2s linear;
-  padding: 20px;
   width: calc(100%);
-  margin-left: 0;
+  margin: 0 auto;
+  max-width: $max-main-width;
 
   body.menu-open & {
-    width: calc(100% - 360px);
-    margin-left: 360px;
-    padding-right: 20px;
+    width: calc(100% - (#{$nav-width} + #{$main-left-gutter} + #{$main-right-gutter}) );
+    margin-left: $nav-width + $main-left-gutter;
   }
 }
 
@@ -87,13 +87,31 @@ body{
   background: transparent;
   text-align: left;
   padding: 15px;
-  width: 300px;
+  width: $nav-width;
 
   transition: $default-transition;
   z-index: $aboveNav;
 
   body.menu-open &{
     background: $toggle-background;
+  }
+}
+
+.input{
+  display: none;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 4px 8px;
+  text-align: center;
+  border: 0;
+
+  &:focus{
+    outline: 0;
+    box-shadow: 0 0 2px 1px $nav-text-color-hover;
+  }
+
+  body.menu-open &{
+    display: block;
   }
 }
 
