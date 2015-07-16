@@ -1,0 +1,1285 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@2.11.3
+3 info using node@v0.12.1
+4 verbose node symlink /usr/local/bin/node
+5 verbose readDependencies loading dependencies from /Users/jmartucci/Dropbox/web_dev/UI-Kit/package.json
+6 verbose install where, deps [ '/Users/jmartucci/Dropbox/web_dev/UI-Kit',
+6 verbose install   [ 'autoprefixer',
+6 verbose install     'babel-core',
+6 verbose install     'babel-loader',
+6 verbose install     'chromath',
+6 verbose install     'css-loader',
+6 verbose install     'csswring',
+6 verbose install     'extract-text-webpack-plugin',
+6 verbose install     'file-loader',
+6 verbose install     'highlight.js',
+6 verbose install     'js-beautify',
+6 verbose install     'postcss-loader',
+6 verbose install     'react',
+6 verbose install     'react-router',
+6 verbose install     'react-to-jsx',
+6 verbose install     'sass-loader',
+6 verbose install     'style-loader',
+6 verbose install     'url-loader',
+6 verbose install     'webpack' ] ]
+7 verbose install where, peers [ '/Users/jmartucci/Dropbox/web_dev/UI-Kit', [] ]
+8 verbose installManyTop reading for lifecycle /Users/jmartucci/Dropbox/web_dev/UI-Kit/package.json
+9 info preinstall virgil@0.0.1
+10 verbose installManyTop reading scoped package data from /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/autoprefixer/package.json
+11 verbose installManyTop reading scoped package data from /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/autoprefixer-core/package.json
+12 verbose installManyTop reading scoped package data from /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/autoprefixer-loader/package.json
+13 verbose installManyTop reading scoped package data from /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/babel-core/package.json
+14 verbose installManyTop reading scoped package data from /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/babel-loader/package.json
+15 verbose installManyTop reading scoped package data from /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/browserify-fs/package.json
+16 verbose installManyTop reading scoped package data from /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/chromath/package.json
+17 verbose installManyTop reading scoped package data from /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/classnames/package.json
+18 verbose installManyTop reading scoped package data from /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/css-loader/package.json
+19 verbose installManyTop reading scoped package data from /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/cssnext/package.json
+20 verbose installManyTop reading scoped package data from /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/cssnext-loader/package.json
+21 verbose installManyTop reading scoped package data from /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/csswring/package.json
+22 verbose installManyTop reading scoped package data from /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/extract-text-webpack-plugin/package.json
+23 verbose installManyTop reading scoped package data from /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/file-loader/package.json
+24 verbose installManyTop reading scoped package data from /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/highlight/package.json
+25 verbose installManyTop reading scoped package data from /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/highlight.js/package.json
+26 verbose installManyTop reading scoped package data from /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/js-beautify/package.json
+27 verbose installManyTop reading scoped package data from /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/json-loader/package.json
+28 verbose installManyTop reading scoped package data from /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/jsx-loader/package.json
+29 verbose installManyTop reading scoped package data from /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/node-libs-browser/package.json
+30 verbose installManyTop reading scoped package data from /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/node-sass/package.json
+31 verbose installManyTop reading scoped package data from /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/postcss-loader/package.json
+32 verbose installManyTop reading scoped package data from /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/postcss-map/package.json
+33 verbose installManyTop reading scoped package data from /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/postcss-mixins/package.json
+34 verbose installManyTop reading scoped package data from /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/postcss-nested/package.json
+35 verbose installManyTop reading scoped package data from /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/postcss-simple-vars/package.json
+36 verbose installManyTop reading scoped package data from /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/react/package.json
+37 verbose installManyTop reading scoped package data from /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/react-router/package.json
+38 verbose installManyTop reading scoped package data from /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/react-to-jsx/package.json
+39 verbose installManyTop reading scoped package data from /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/sass-loader/package.json
+40 verbose installManyTop reading scoped package data from /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/style-loader/package.json
+41 verbose installManyTop reading scoped package data from /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/url-loader/package.json
+42 verbose installManyTop reading scoped package data from /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/velocity-animate/package.json
+43 verbose installManyTop reading scoped package data from /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/webpack/package.json
+44 info package.json csswring@3.0.5 license should be a valid SPDX license expression
+45 info package.json highlight@0.2.3 No license field.
+46 info package.json postcss-map@0.4.1 license should be a valid SPDX license expression
+47 info package.json style-loader@0.8.3 No license field.
+48 info package.json browserify-fs@1.0.0 No license field.
+49 info package.json css-loader@0.9.1 No license field.
+50 info package.json jsx-loader@0.13.2 license should be a valid SPDX license expression
+51 info package.json extract-text-webpack-plugin@0.3.8 No license field.
+52 verbose readDependencies loading dependencies from /Users/jmartucci/Dropbox/web_dev/UI-Kit/package.json
+53 verbose targetResolver reading package data from /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/autoprefixer/package.json
+54 verbose targetResolver reading package data from /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/autoprefixer-core/package.json
+55 verbose targetResolver reading package data from /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/autoprefixer-loader/package.json
+56 verbose targetResolver reading package data from /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/babel-core/package.json
+57 verbose targetResolver reading package data from /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/babel-loader/package.json
+58 verbose targetResolver reading package data from /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/browserify-fs/package.json
+59 verbose targetResolver reading package data from /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/chromath/package.json
+60 verbose targetResolver reading package data from /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/classnames/package.json
+61 verbose targetResolver reading package data from /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/css-loader/package.json
+62 verbose targetResolver reading package data from /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/cssnext/package.json
+63 verbose targetResolver reading package data from /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/cssnext-loader/package.json
+64 verbose targetResolver reading package data from /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/csswring/package.json
+65 verbose targetResolver reading package data from /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/extract-text-webpack-plugin/package.json
+66 verbose targetResolver reading package data from /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/file-loader/package.json
+67 verbose targetResolver reading package data from /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/highlight/package.json
+68 verbose targetResolver reading package data from /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/highlight.js/package.json
+69 verbose targetResolver reading package data from /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/js-beautify/package.json
+70 verbose targetResolver reading package data from /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/json-loader/package.json
+71 verbose targetResolver reading package data from /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/jsx-loader/package.json
+72 verbose targetResolver reading package data from /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/node-libs-browser/package.json
+73 verbose targetResolver reading package data from /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/node-sass/package.json
+74 verbose targetResolver reading package data from /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/postcss-loader/package.json
+75 verbose targetResolver reading package data from /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/postcss-map/package.json
+76 verbose targetResolver reading package data from /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/postcss-mixins/package.json
+77 verbose targetResolver reading package data from /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/postcss-nested/package.json
+78 verbose targetResolver reading package data from /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/postcss-simple-vars/package.json
+79 verbose targetResolver reading package data from /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/react/package.json
+80 verbose targetResolver reading package data from /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/react-router/package.json
+81 verbose targetResolver reading package data from /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/react-to-jsx/package.json
+82 verbose targetResolver reading package data from /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/sass-loader/package.json
+83 verbose targetResolver reading package data from /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/style-loader/package.json
+84 verbose targetResolver reading package data from /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/url-loader/package.json
+85 verbose targetResolver reading package data from /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/velocity-animate/package.json
+86 verbose targetResolver reading package data from /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/webpack/package.json
+87 verbose targetResolver reading package data from /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/.bin/autoprefixer/package.json
+88 verbose targetResolver reading package data from /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/.bin/css-beautify/package.json
+89 verbose targetResolver reading package data from /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/.bin/cssnext/package.json
+90 verbose targetResolver reading package data from /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/.bin/csswring/package.json
+91 verbose targetResolver reading package data from /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/.bin/html-beautify/package.json
+92 verbose targetResolver reading package data from /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/.bin/js-beautify/package.json
+93 verbose targetResolver reading package data from /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/.bin/node-sass/package.json
+94 verbose targetResolver reading package data from /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/.bin/webpack/package.json
+95 verbose already installed skipping style-loader@^0.8.3 /Users/jmartucci/Dropbox/web_dev/UI-Kit
+96 verbose already installed skipping url-loader@^0.5.6 /Users/jmartucci/Dropbox/web_dev/UI-Kit
+97 verbose already installed skipping webpack@^1.7.2 /Users/jmartucci/Dropbox/web_dev/UI-Kit
+98 verbose already installed skipping autoprefixer@^5.2.0 /Users/jmartucci/Dropbox/web_dev/UI-Kit
+99 verbose already installed skipping babel-core@^5.6.19 /Users/jmartucci/Dropbox/web_dev/UI-Kit
+100 silly cache add args [ 'babel-loader@^5.3.2', null ]
+101 verbose cache add spec babel-loader@^5.3.2
+102 silly cache add parsed spec { raw: 'babel-loader@^5.3.2',
+102 silly cache add   scope: null,
+102 silly cache add   name: 'babel-loader',
+102 silly cache add   rawSpec: '^5.3.2',
+102 silly cache add   spec: '>=5.3.2 <6.0.0',
+102 silly cache add   type: 'range' }
+103 silly addNamed babel-loader@>=5.3.2 <6.0.0
+104 verbose addNamed ">=5.3.2 <6.0.0" is a valid semver range for babel-loader
+105 silly addNameRange { name: 'babel-loader', range: '>=5.3.2 <6.0.0', hasData: false }
+106 silly mapToRegistry name babel-loader
+107 silly mapToRegistry using default registry
+108 silly mapToRegistry registry https://registry.npmjs.org/
+109 silly mapToRegistry uri https://registry.npmjs.org/babel-loader
+110 verbose addNameRange registry:https://registry.npmjs.org/babel-loader not in flight; fetching
+111 verbose already installed skipping chromath@0.0.6 /Users/jmartucci/Dropbox/web_dev/UI-Kit
+112 verbose already installed skipping css-loader@^0.9.1 /Users/jmartucci/Dropbox/web_dev/UI-Kit
+113 verbose already installed skipping csswring@^3.0.5 /Users/jmartucci/Dropbox/web_dev/UI-Kit
+114 verbose already installed skipping extract-text-webpack-plugin@^0.3.8 /Users/jmartucci/Dropbox/web_dev/UI-Kit
+115 verbose already installed skipping file-loader@^0.8.4 /Users/jmartucci/Dropbox/web_dev/UI-Kit
+116 verbose request uri https://registry.npmjs.org/babel-loader
+117 verbose request no auth needed
+118 info attempt registry request try #1 at 16:31:58
+119 verbose request id 6309010b304f9967
+120 verbose etag "GMB4691Y50HSI7ON27IM7BF2"
+121 http request GET https://registry.npmjs.org/babel-loader
+122 verbose already installed skipping highlight.js@^8.6.0 /Users/jmartucci/Dropbox/web_dev/UI-Kit
+123 verbose already installed skipping js-beautify@^1.5.10 /Users/jmartucci/Dropbox/web_dev/UI-Kit
+124 verbose already installed skipping postcss-loader@^0.5.1 /Users/jmartucci/Dropbox/web_dev/UI-Kit
+125 verbose already installed skipping react@^0.13.3 /Users/jmartucci/Dropbox/web_dev/UI-Kit
+126 verbose already installed skipping react-router@^0.13.3 /Users/jmartucci/Dropbox/web_dev/UI-Kit
+127 verbose already installed skipping react-to-jsx@^1.3.2 /Users/jmartucci/Dropbox/web_dev/UI-Kit
+128 verbose already installed skipping sass-loader@^0.4.1 /Users/jmartucci/Dropbox/web_dev/UI-Kit
+129 http 304 https://registry.npmjs.org/babel-loader
+130 silly get cb [ 304,
+130 silly get   { date: 'Thu, 16 Jul 2015 20:31:58 GMT',
+130 silly get     via: '1.1 varnish',
+130 silly get     'cache-control': 'max-age=60',
+130 silly get     etag: '"GMB4691Y50HSI7ON27IM7BF2"',
+130 silly get     age: '27',
+130 silly get     connection: 'keep-alive',
+130 silly get     'x-served-by': 'cache-atl6228-ATL',
+130 silly get     'x-cache': 'HIT',
+130 silly get     'x-cache-hits': '2',
+130 silly get     'x-timer': 'S1437078718.844683,VS0,VE0',
+130 silly get     vary: 'Accept' } ]
+131 verbose etag https://registry.npmjs.org/babel-loader from cache
+132 verbose get saving babel-loader to /Users/jmartucci/.npm/registry.npmjs.org/babel-loader/.cache.json
+133 silly addNameRange number 2 { name: 'babel-loader', range: '>=5.3.2 <6.0.0', hasData: true }
+134 silly addNameRange versions [ 'babel-loader',
+134 silly addNameRange   [ '4.0.0',
+134 silly addNameRange     '4.1.0',
+134 silly addNameRange     '4.2.0',
+134 silly addNameRange     '4.3.0',
+134 silly addNameRange     '5.0.0',
+134 silly addNameRange     '5.1.0',
+134 silly addNameRange     '5.1.2',
+134 silly addNameRange     '5.1.3',
+134 silly addNameRange     '5.1.4',
+134 silly addNameRange     '5.2.0',
+134 silly addNameRange     '5.2.1',
+134 silly addNameRange     '5.2.2',
+134 silly addNameRange     '5.3.0',
+134 silly addNameRange     '5.3.1',
+134 silly addNameRange     '5.3.2' ] ]
+135 silly addNamed babel-loader@5.3.2
+136 verbose addNamed "5.3.2" is a plain semver version for babel-loader
+137 silly mapToRegistry name babel-loader
+138 silly mapToRegistry using default registry
+139 silly mapToRegistry registry https://registry.npmjs.org/
+140 silly mapToRegistry uri https://registry.npmjs.org/babel-loader
+141 verbose addRemoteTarball https://registry.npmjs.org/babel-loader/-/babel-loader-5.3.2.tgz not in flight; adding
+142 verbose addRemoteTarball [ 'https://registry.npmjs.org/babel-loader/-/babel-loader-5.3.2.tgz',
+142 verbose addRemoteTarball   'd8839fc7163f8c55bffcdbd75fec513387ff328f' ]
+143 info retry fetch attempt 1 at 16:31:58
+144 info attempt registry request try #1 at 16:31:58
+145 http fetch GET https://registry.npmjs.org/babel-loader/-/babel-loader-5.3.2.tgz
+146 http fetch 200 https://registry.npmjs.org/babel-loader/-/babel-loader-5.3.2.tgz
+147 silly fetchAndShaCheck shasum d8839fc7163f8c55bffcdbd75fec513387ff328f
+148 verbose addTmpTarball /var/folders/vg/z5fmydcs79s95mjfgnv34mh40000gp/T/npm-64111-aaffc266/registry.npmjs.org/babel-loader/-/babel-loader-5.3.2.tgz not in flight; adding
+149 verbose addTmpTarball already have metadata; skipping unpack for babel-loader@5.3.2
+150 silly cache afterAdd babel-loader@5.3.2
+151 verbose afterAdd /Users/jmartucci/.npm/babel-loader/5.3.2/package/package.json not in flight; writing
+152 verbose afterAdd /Users/jmartucci/.npm/babel-loader/5.3.2/package/package.json written
+153 silly install resolved [ { name: 'babel-loader',
+153 silly install resolved     version: '5.3.2',
+153 silly install resolved     description: 'babel module loader for webpack',
+153 silly install resolved     main: 'index.js',
+153 silly install resolved     dependencies:
+153 silly install resolved      { 'babel-core': '^5.4.0',
+153 silly install resolved        'loader-utils': '^0.2.9',
+153 silly install resolved        'object-assign': '^3.0.0' },
+153 silly install resolved     peerDependencies: { 'babel-core': '*', webpack: '*' },
+153 silly install resolved     devDependencies:
+153 silly install resolved      { 'babel-core': '^5.5.8',
+153 silly install resolved        'expect.js': '^0.3.1',
+153 silly install resolved        istanbul: '^0.3.15',
+153 silly install resolved        jscs: '^1.13.1',
+153 silly install resolved        jshint: '^2.8.0',
+153 silly install resolved        mkdirp: '^0.5.1',
+153 silly install resolved        mocha: '^2.2.5',
+153 silly install resolved        rimraf: '^2.4.0',
+153 silly install resolved        webpack: '^1.9.11' },
+153 silly install resolved     scripts:
+153 silly install resolved      { test: 'npm run hint && npm run cs && npm run cov',
+153 silly install resolved        cov: 'istanbul cover ./node_modules/.bin/_mocha -- test/*.test.js',
+153 silly install resolved        hint: 'jshint --config .jshintrc index.js lib/* test/*',
+153 silly install resolved        cs: 'jscs --config .jscsrc index.js lib/* test/*' },
+153 silly install resolved     repository:
+153 silly install resolved      { type: 'git',
+153 silly install resolved        url: 'git+https://github.com/babel/babel-loader.git' },
+153 silly install resolved     keywords:
+153 silly install resolved      [ 'webpack',
+153 silly install resolved        'loader',
+153 silly install resolved        '6to5',
+153 silly install resolved        'babel',
+153 silly install resolved        'es6',
+153 silly install resolved        'transpiler',
+153 silly install resolved        'module' ],
+153 silly install resolved     author: { name: 'Luis Couto', email: 'couto@15minuteslate.net' },
+153 silly install resolved     license: 'MIT',
+153 silly install resolved     bugs: { url: 'https://github.com/babel/babel-loader/issues' },
+153 silly install resolved     homepage: 'https://github.com/babel/babel-loader',
+153 silly install resolved     gitHead: '9f117b5d78fb3f8d0107c30784ac124c778a9e4e',
+153 silly install resolved     _id: 'babel-loader@5.3.2',
+153 silly install resolved     _shasum: 'd8839fc7163f8c55bffcdbd75fec513387ff328f',
+153 silly install resolved     _from: 'babel-loader@>=5.3.2 <6.0.0',
+153 silly install resolved     _npmVersion: '2.10.0',
+153 silly install resolved     _nodeVersion: '0.12.2',
+153 silly install resolved     _npmUser: { name: 'couto', email: 'couto@15minuteslate.net' },
+153 silly install resolved     maintainers: [ [Object], [Object] ],
+153 silly install resolved     dist:
+153 silly install resolved      { shasum: 'd8839fc7163f8c55bffcdbd75fec513387ff328f',
+153 silly install resolved        tarball: 'http://registry.npmjs.org/babel-loader/-/babel-loader-5.3.2.tgz' },
+153 silly install resolved     directories: {},
+153 silly install resolved     _resolved: 'https://registry.npmjs.org/babel-loader/-/babel-loader-5.3.2.tgz' } ]
+154 info install babel-loader@5.3.2 into /Users/jmartucci/Dropbox/web_dev/UI-Kit
+155 info installOne babel-loader@5.3.2
+156 verbose installOne of babel-loader to /Users/jmartucci/Dropbox/web_dev/UI-Kit not in flight; installing
+157 verbose lock using /Users/jmartucci/.npm/_locks/babel-loader-cd8f00beec98c601.lock for /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/babel-loader
+158 silly install write writing babel-loader 5.3.2 to /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/babel-loader
+159 verbose unbuild node_modules/babel-loader
+160 info preuninstall babel-loader@4.3.0
+161 info uninstall babel-loader@4.3.0
+162 verbose unbuild rmStuff babel-loader@4.3.0 from /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules
+163 info postuninstall babel-loader@4.3.0
+164 silly gentlyRm /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/babel-loader is being purged from base /Users/jmartucci/Dropbox/web_dev/UI-Kit
+165 verbose gentlyRm don't care about contents; nuking /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/babel-loader
+166 silly vacuum-fs purging /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/babel-loader
+167 silly vacuum-fs quitting because other entries in /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules
+168 verbose tar unpack /Users/jmartucci/.npm/babel-loader/5.3.2/package.tgz
+169 verbose tar unpacking to /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/babel-loader
+170 silly gentlyRm /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/babel-loader is being purged
+171 verbose gentlyRm don't care about contents; nuking /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/babel-loader
+172 silly gunzTarPerm modes [ '755', '644' ]
+173 silly gunzTarPerm extractEntry package.json
+174 silly gunzTarPerm extractEntry .npmignore
+175 silly gunzTarPerm extractEntry README.md
+176 silly gunzTarPerm extractEntry LICENSE
+177 silly gunzTarPerm extractEntry index.js
+178 silly gunzTarPerm extractEntry .jshintrc
+179 silly gunzTarPerm extractEntry CHANGELOG.md
+180 silly gunzTarPerm extractEntry CONTRIBUTING.md
+181 silly gunzTarPerm extractEntry .editorconfig
+182 silly gunzTarPerm extractEntry .jscsrc
+183 silly gunzTarPerm extractEntry lib/fs-cache.js
+184 silly gunzTarPerm extractEntry lib/resolve-rc.js
+185 silly gunzTarPerm extractEntry lib/helpers/exists.js
+186 silly gunzTarPerm extractEntry .jshintignore
+187 silly gunzTarPerm extractEntry test/cache.test.js
+188 silly gunzTarPerm extractEntry test/loader.test.js
+189 silly gunzTarPerm extractEntry test/options.test.js
+190 silly gunzTarPerm extractEntry test/resolverc.test.js
+191 silly gunzTarPerm extractEntry test/sourcemaps.test.js
+192 silly gunzTarPerm extractEntry test/fixtures/basic.js
+193 silly gunzTarPerm extractEntry test/fixtures/constant.js
+194 silly gunzTarPerm extractEntry test/fixtures/experimental.js
+195 silly gunzTarPerm extractEntry test/fixtures/import.js
+196 silly gunzTarPerm extractEntry test/fixtures/syntax.js
+197 silly gunzTarPerm extractEntry test/fixtures/babelrc-test/.babelrc
+198 silly gunzTarPerm extractEntry test/fixtures/babelrc-test/1/2/3/.gitkeep
+199 verbose write writing to /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/babel-loader/package.json
+200 info preinstall babel-loader@5.3.2
+201 verbose readDependencies loading dependencies from /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/babel-loader/package.json
+202 silly prepareForInstallMany adding loader-utils@^0.2.9 from babel-loader dependencies
+203 silly prepareForInstallMany adding object-assign@^3.0.0 from babel-loader dependencies
+204 verbose readDependencies loading dependencies from /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/babel-loader/package.json
+205 silly cache add args [ 'loader-utils@^0.2.9', null ]
+206 verbose cache add spec loader-utils@^0.2.9
+207 silly cache add args [ 'object-assign@^3.0.0', null ]
+208 verbose cache add spec object-assign@^3.0.0
+209 silly cache add parsed spec { raw: 'loader-utils@^0.2.9',
+209 silly cache add   scope: null,
+209 silly cache add   name: 'loader-utils',
+209 silly cache add   rawSpec: '^0.2.9',
+209 silly cache add   spec: '>=0.2.9 <0.3.0',
+209 silly cache add   type: 'range' }
+210 silly addNamed loader-utils@>=0.2.9 <0.3.0
+211 verbose addNamed ">=0.2.9 <0.3.0" is a valid semver range for loader-utils
+212 silly addNameRange { name: 'loader-utils', range: '>=0.2.9 <0.3.0', hasData: false }
+213 silly mapToRegistry name loader-utils
+214 silly mapToRegistry using default registry
+215 silly mapToRegistry registry https://registry.npmjs.org/
+216 silly mapToRegistry uri https://registry.npmjs.org/loader-utils
+217 verbose addNameRange registry:https://registry.npmjs.org/loader-utils not in flight; fetching
+218 silly cache add parsed spec { raw: 'object-assign@^3.0.0',
+218 silly cache add   scope: null,
+218 silly cache add   name: 'object-assign',
+218 silly cache add   rawSpec: '^3.0.0',
+218 silly cache add   spec: '>=3.0.0 <4.0.0',
+218 silly cache add   type: 'range' }
+219 silly addNamed object-assign@>=3.0.0 <4.0.0
+220 verbose addNamed ">=3.0.0 <4.0.0" is a valid semver range for object-assign
+221 silly addNameRange { name: 'object-assign',
+221 silly addNameRange   range: '>=3.0.0 <4.0.0',
+221 silly addNameRange   hasData: false }
+222 silly mapToRegistry name object-assign
+223 silly mapToRegistry using default registry
+224 silly mapToRegistry registry https://registry.npmjs.org/
+225 silly mapToRegistry uri https://registry.npmjs.org/object-assign
+226 verbose addNameRange registry:https://registry.npmjs.org/object-assign not in flight; fetching
+227 verbose request uri https://registry.npmjs.org/loader-utils
+228 verbose request no auth needed
+229 info attempt registry request try #1 at 16:31:59
+230 verbose etag "47OAW8EATAH4HYQTCQT4MBAWY"
+231 http request GET https://registry.npmjs.org/loader-utils
+232 verbose request uri https://registry.npmjs.org/object-assign
+233 verbose request no auth needed
+234 info attempt registry request try #1 at 16:31:59
+235 verbose etag "1RFIFUNM0T2Q2RB2OKLQXPDST"
+236 http request GET https://registry.npmjs.org/object-assign
+237 http 304 https://registry.npmjs.org/loader-utils
+238 silly get cb [ 304,
+238 silly get   { date: 'Thu, 16 Jul 2015 20:31:59 GMT',
+238 silly get     via: '1.1 varnish',
+238 silly get     'cache-control': 'max-age=60',
+238 silly get     etag: '"47OAW8EATAH4HYQTCQT4MBAWY"',
+238 silly get     age: '1',
+238 silly get     connection: 'keep-alive',
+238 silly get     'x-served-by': 'cache-atl6235-ATL',
+238 silly get     'x-cache': 'HIT',
+238 silly get     'x-cache-hits': '1',
+238 silly get     'x-timer': 'S1437078719.548871,VS0,VE1',
+238 silly get     vary: 'Accept' } ]
+239 verbose etag https://registry.npmjs.org/loader-utils from cache
+240 verbose get saving loader-utils to /Users/jmartucci/.npm/registry.npmjs.org/loader-utils/.cache.json
+241 http 304 https://registry.npmjs.org/object-assign
+242 silly get cb [ 304,
+242 silly get   { date: 'Thu, 16 Jul 2015 20:31:59 GMT',
+242 silly get     via: '1.1 varnish',
+242 silly get     'cache-control': 'max-age=60',
+242 silly get     etag: '"1RFIFUNM0T2Q2RB2OKLQXPDST"',
+242 silly get     age: '44',
+242 silly get     connection: 'keep-alive',
+242 silly get     'x-served-by': 'cache-atl6222-ATL',
+242 silly get     'x-cache': 'HIT',
+242 silly get     'x-cache-hits': '11',
+242 silly get     'x-timer': 'S1437078719.550026,VS0,VE0',
+242 silly get     vary: 'Accept' } ]
+243 verbose etag https://registry.npmjs.org/object-assign from cache
+244 verbose get saving object-assign to /Users/jmartucci/.npm/registry.npmjs.org/object-assign/.cache.json
+245 silly addNameRange number 2 { name: 'object-assign', range: '>=3.0.0 <4.0.0', hasData: true }
+246 silly addNameRange versions [ 'object-assign',
+246 silly addNameRange   [ '0.1.0',
+246 silly addNameRange     '0.1.1',
+246 silly addNameRange     '0.1.2',
+246 silly addNameRange     '0.2.0',
+246 silly addNameRange     '0.2.1',
+246 silly addNameRange     '0.2.2',
+246 silly addNameRange     '0.3.0',
+246 silly addNameRange     '0.3.1',
+246 silly addNameRange     '0.4.0',
+246 silly addNameRange     '1.0.0',
+246 silly addNameRange     '2.0.0',
+246 silly addNameRange     '3.0.0',
+246 silly addNameRange     '2.1.1' ] ]
+247 silly addNamed object-assign@3.0.0
+248 verbose addNamed "3.0.0" is a plain semver version for object-assign
+249 silly addNameRange number 2 { name: 'loader-utils', range: '>=0.2.9 <0.3.0', hasData: true }
+250 silly addNameRange versions [ 'loader-utils',
+250 silly addNameRange   [ '0.1.0',
+250 silly addNameRange     '0.1.1',
+250 silly addNameRange     '0.1.2',
+250 silly addNameRange     '0.2.0',
+250 silly addNameRange     '0.2.1',
+250 silly addNameRange     '0.2.2',
+250 silly addNameRange     '0.2.3',
+250 silly addNameRange     '0.2.4',
+250 silly addNameRange     '0.2.5',
+250 silly addNameRange     '0.2.6',
+250 silly addNameRange     '0.2.7',
+250 silly addNameRange     '0.2.8',
+250 silly addNameRange     '0.2.9',
+250 silly addNameRange     '0.2.10' ] ]
+251 silly addNamed loader-utils@0.2.10
+252 verbose addNamed "0.2.10" is a plain semver version for loader-utils
+253 silly cache afterAdd object-assign@3.0.0
+254 verbose afterAdd /Users/jmartucci/.npm/object-assign/3.0.0/package/package.json not in flight; writing
+255 silly cache afterAdd loader-utils@0.2.10
+256 verbose afterAdd /Users/jmartucci/.npm/loader-utils/0.2.10/package/package.json not in flight; writing
+257 verbose afterAdd /Users/jmartucci/.npm/object-assign/3.0.0/package/package.json written
+258 verbose afterAdd /Users/jmartucci/.npm/loader-utils/0.2.10/package/package.json written
+259 silly install resolved [ { name: 'object-assign',
+259 silly install resolved     version: '3.0.0',
+259 silly install resolved     description: 'ES6 Object.assign() ponyfill',
+259 silly install resolved     license: 'MIT',
+259 silly install resolved     repository:
+259 silly install resolved      { type: 'git',
+259 silly install resolved        url: 'git://github.com/sindresorhus/object-assign.git' },
+259 silly install resolved     author:
+259 silly install resolved      { name: 'Sindre Sorhus',
+259 silly install resolved        email: 'sindresorhus@gmail.com',
+259 silly install resolved        url: 'http://sindresorhus.com' },
+259 silly install resolved     engines: { node: '>=0.10.0' },
+259 silly install resolved     scripts: { test: 'mocha' },
+259 silly install resolved     files: [ 'index.js' ],
+259 silly install resolved     keywords:
+259 silly install resolved      [ 'object',
+259 silly install resolved        'assign',
+259 silly install resolved        'extend',
+259 silly install resolved        'properties',
+259 silly install resolved        'es6',
+259 silly install resolved        'ecmascript',
+259 silly install resolved        'harmony',
+259 silly install resolved        'ponyfill',
+259 silly install resolved        'prollyfill',
+259 silly install resolved        'polyfill',
+259 silly install resolved        'shim',
+259 silly install resolved        'browser' ],
+259 silly install resolved     devDependencies: { mocha: '*' },
+259 silly install resolved     readme: '# object-assign [![Build Status](https://travis-ci.org/sindresorhus/object-assign.svg?branch=master)](https://travis-ci.org/sindresorhus/object-assign)\n\n> ES6 [`Object.assign()`](http://www.2ality.com/2014/01/object-assign.html) ponyfill\n\n> Ponyfill: A polyfill that doesn\'t overwrite the native method\n\n\n## Install\n\n```sh\n$ npm install --save object-assign\n```\n\n\n## Usage\n\n```js\nvar objectAssign = require(\'object-assign\');\n\nobjectAssign({foo: 0}, {bar: 1});\n//=> {foo: 0, bar: 1}\n\n// multiple sources\nobjectAssign({foo: 0}, {bar: 1}, {baz: 2});\n//=> {foo: 0, bar: 1, baz: 2}\n\n// overwrites equal keys\nobjectAssign({foo: 0}, {foo: 1}, {foo: 2});\n//=> {foo: 2}\n\n// ignores null and undefined sources\nobjectAssign({foo: 0}, null, {bar: 1}, undefined);\n//=> {foo: 0, bar: 1}\n```\n\n\n## API\n\n### objectAssign(target, source, [source, ...])\n\nAssigns enumerable own properties of `source` objects to the `target` object and returns the `target` object. Additional `source` objects will overwrite previous ones.\n\n\n## Resources\n\n- [ES6 spec - Object.assign](https://people.mozilla.org/~jorendorff/es6-draft.html#sec-object.assign)\n\n\n## License\n\nMIT © [Sindre Sorhus](http://sindresorhus.com)\n',
+259 silly install resolved     readmeFilename: 'readme.md',
+259 silly install resolved     bugs: { url: 'https://github.com/sindresorhus/object-assign/issues' },
+259 silly install resolved     homepage: 'https://github.com/sindresorhus/object-assign',
+259 silly install resolved     _id: 'object-assign@3.0.0',
+259 silly install resolved     _shasum: '9bedd5ca0897949bca47e7ff408062d549f587f2',
+259 silly install resolved     _from: 'object-assign@>=3.0.0 <4.0.0',
+259 silly install resolved     _resolved: 'https://registry.npmjs.org/object-assign/-/object-assign-3.0.0.tgz' },
+259 silly install resolved   { name: 'loader-utils',
+259 silly install resolved     version: '0.2.10',
+259 silly install resolved     author: { name: 'Tobias Koppers @sokra' },
+259 silly install resolved     description: 'utils for webpack loaders',
+259 silly install resolved     dependencies: { 'big.js': '^3.0.2', json5: '^0.4.0' },
+259 silly install resolved     scripts:
+259 silly install resolved      { test: 'mocha',
+259 silly install resolved        travis: 'npm run cover -- --report lcovonly',
+259 silly install resolved        cover: 'istanbul cover -x *.runtime.js node_modules/mocha/bin/_mocha',
+259 silly install resolved        'publish-patch': 'mocha && npm version patch && git push && git push --tags && npm publish' },
+259 silly install resolved     license: 'MIT',
+259 silly install resolved     repository:
+259 silly install resolved      { type: 'git',
+259 silly install resolved        url: 'git+https://github.com/webpack/loader-utils.git' },
+259 silly install resolved     devDependencies: { coveralls: '^2.11.2', istanbul: '^0.3.14', mocha: '^1.21.4' },
+259 silly install resolved     files: [ 'index.js' ],
+259 silly install resolved     gitHead: '7fd3e9a1c9a0fb8d775f835498b8c0a2002e36a0',
+259 silly install resolved     bugs: { url: 'https://github.com/webpack/loader-utils/issues' },
+259 silly install resolved     homepage: 'https://github.com/webpack/loader-utils#readme',
+259 silly install resolved     _id: 'loader-utils@0.2.10',
+259 silly install resolved     _shasum: '7ed2258e496644c83680590489bb82f3f57892fc',
+259 silly install resolved     _from: 'loader-utils@>=0.2.9 <0.3.0',
+259 silly install resolved     _npmVersion: '2.10.0',
+259 silly install resolved     _nodeVersion: '0.12.2',
+259 silly install resolved     _npmUser: { name: 'sokra', email: 'tobias.koppers@googlemail.com' },
+259 silly install resolved     maintainers: [ [Object] ],
+259 silly install resolved     dist:
+259 silly install resolved      { shasum: '7ed2258e496644c83680590489bb82f3f57892fc',
+259 silly install resolved        tarball: 'http://registry.npmjs.org/loader-utils/-/loader-utils-0.2.10.tgz' },
+259 silly install resolved     directories: {},
+259 silly install resolved     _resolved: 'https://registry.npmjs.org/loader-utils/-/loader-utils-0.2.10.tgz',
+259 silly install resolved     readme: 'ERROR: No README data found!' } ]
+260 info install object-assign@3.0.0 into /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/babel-loader
+261 info install loader-utils@0.2.10 into /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/babel-loader
+262 info installOne object-assign@3.0.0
+263 verbose installOne of object-assign to /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/babel-loader not in flight; installing
+264 info installOne loader-utils@0.2.10
+265 verbose installOne of loader-utils to /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/babel-loader not in flight; installing
+266 verbose lock using /Users/jmartucci/.npm/_locks/object-assign-748316580b410781.lock for /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/babel-loader/node_modules/object-assign
+267 verbose lock using /Users/jmartucci/.npm/_locks/loader-utils-6202e12f746c2bfd.lock for /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/babel-loader/node_modules/loader-utils
+268 silly install write writing object-assign 3.0.0 to /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/babel-loader/node_modules/object-assign
+269 silly install write writing loader-utils 0.2.10 to /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/babel-loader/node_modules/loader-utils
+270 verbose unbuild node_modules/babel-loader/node_modules/object-assign
+271 verbose unbuild node_modules/babel-loader/node_modules/loader-utils
+272 silly gentlyRm /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/babel-loader/node_modules/object-assign is being purged from base /Users/jmartucci/Dropbox/web_dev/UI-Kit
+273 verbose gentlyRm don't care about contents; nuking /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/babel-loader/node_modules/object-assign
+274 silly gentlyRm /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/babel-loader/node_modules/loader-utils is being purged from base /Users/jmartucci/Dropbox/web_dev/UI-Kit
+275 verbose gentlyRm don't care about contents; nuking /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/babel-loader/node_modules/loader-utils
+276 verbose tar unpack /Users/jmartucci/.npm/object-assign/3.0.0/package.tgz
+277 verbose tar unpacking to /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/babel-loader/node_modules/object-assign
+278 silly gentlyRm /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/babel-loader/node_modules/object-assign is being purged
+279 verbose gentlyRm don't care about contents; nuking /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/babel-loader/node_modules/object-assign
+280 verbose tar unpack /Users/jmartucci/.npm/loader-utils/0.2.10/package.tgz
+281 verbose tar unpacking to /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/babel-loader/node_modules/loader-utils
+282 silly gentlyRm /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/babel-loader/node_modules/loader-utils is being purged
+283 verbose gentlyRm don't care about contents; nuking /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/babel-loader/node_modules/loader-utils
+284 silly gunzTarPerm modes [ '755', '644' ]
+285 silly gunzTarPerm modes [ '755', '644' ]
+286 silly gunzTarPerm extractEntry package.json
+287 silly gunzTarPerm extractEntry package.json
+288 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+289 silly gunzTarPerm extractEntry index.js
+290 silly gunzTarPerm extractEntry license
+291 silly gunzTarPerm extractEntry README.md
+292 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+293 silly gunzTarPerm extractEntry LICENSE
+294 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+295 silly gunzTarPerm extractEntry readme.md
+296 silly gunzTarPerm extractEntry index.js
+297 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+298 verbose write writing to /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/babel-loader/node_modules/object-assign/package.json
+299 info preinstall object-assign@3.0.0
+300 verbose readDependencies loading dependencies from /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/babel-loader/node_modules/object-assign/package.json
+301 verbose write writing to /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/babel-loader/node_modules/loader-utils/package.json
+302 verbose readDependencies loading dependencies from /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/babel-loader/node_modules/object-assign/package.json
+303 info preinstall loader-utils@0.2.10
+304 silly install resolved []
+305 verbose about to build /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/babel-loader/node_modules/object-assign
+306 info build /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/babel-loader/node_modules/object-assign
+307 verbose readDependencies loading dependencies from /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/babel-loader/node_modules/loader-utils/package.json
+308 info linkStuff object-assign@3.0.0
+309 silly linkStuff object-assign@3.0.0 has /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/babel-loader/node_modules as its parent node_modules
+310 silly prepareForInstallMany adding big.js@^3.0.2 from loader-utils dependencies
+311 silly prepareForInstallMany adding json5@^0.4.0 from loader-utils dependencies
+312 verbose readDependencies loading dependencies from /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/babel-loader/node_modules/loader-utils/package.json
+313 verbose linkBins object-assign@3.0.0
+314 verbose linkMans object-assign@3.0.0
+315 verbose rebuildBundles object-assign@3.0.0
+316 silly cache add args [ 'big.js@^3.0.2', null ]
+317 verbose cache add spec big.js@^3.0.2
+318 silly cache add args [ 'json5@^0.4.0', null ]
+319 verbose cache add spec json5@^0.4.0
+320 silly cache add parsed spec { raw: 'big.js@^3.0.2',
+320 silly cache add   scope: null,
+320 silly cache add   name: 'big.js',
+320 silly cache add   rawSpec: '^3.0.2',
+320 silly cache add   spec: '>=3.0.2 <4.0.0',
+320 silly cache add   type: 'range' }
+321 silly addNamed big.js@>=3.0.2 <4.0.0
+322 verbose addNamed ">=3.0.2 <4.0.0" is a valid semver range for big.js
+323 silly addNameRange { name: 'big.js', range: '>=3.0.2 <4.0.0', hasData: false }
+324 silly mapToRegistry name big.js
+325 silly mapToRegistry using default registry
+326 silly mapToRegistry registry https://registry.npmjs.org/
+327 silly mapToRegistry uri https://registry.npmjs.org/big.js
+328 verbose addNameRange registry:https://registry.npmjs.org/big.js not in flight; fetching
+329 silly cache add parsed spec { raw: 'json5@^0.4.0',
+329 silly cache add   scope: null,
+329 silly cache add   name: 'json5',
+329 silly cache add   rawSpec: '^0.4.0',
+329 silly cache add   spec: '>=0.4.0 <0.5.0',
+329 silly cache add   type: 'range' }
+330 silly addNamed json5@>=0.4.0 <0.5.0
+331 verbose addNamed ">=0.4.0 <0.5.0" is a valid semver range for json5
+332 silly addNameRange { name: 'json5', range: '>=0.4.0 <0.5.0', hasData: false }
+333 silly mapToRegistry name json5
+334 silly mapToRegistry using default registry
+335 silly mapToRegistry registry https://registry.npmjs.org/
+336 silly mapToRegistry uri https://registry.npmjs.org/json5
+337 verbose addNameRange registry:https://registry.npmjs.org/json5 not in flight; fetching
+338 info install object-assign@3.0.0
+339 info postinstall object-assign@3.0.0
+340 verbose request uri https://registry.npmjs.org/big.js
+341 verbose request no auth needed
+342 info attempt registry request try #1 at 16:31:59
+343 verbose etag "V2BGW5VM749T7RMZ6I77UNR9"
+344 http request GET https://registry.npmjs.org/big.js
+345 verbose request uri https://registry.npmjs.org/json5
+346 verbose request no auth needed
+347 info attempt registry request try #1 at 16:31:59
+348 verbose etag "WJHOV7OMGVWCGCCSOCWNWLFT"
+349 http request GET https://registry.npmjs.org/json5
+350 verbose unlock done using /Users/jmartucci/.npm/_locks/object-assign-748316580b410781.lock for /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/babel-loader/node_modules/object-assign
+351 http 304 https://registry.npmjs.org/big.js
+352 silly get cb [ 304,
+352 silly get   { date: 'Thu, 16 Jul 2015 20:31:59 GMT',
+352 silly get     via: '1.1 varnish',
+352 silly get     'cache-control': 'max-age=60',
+352 silly get     etag: '"V2BGW5VM749T7RMZ6I77UNR9"',
+352 silly get     age: '44',
+352 silly get     connection: 'keep-alive',
+352 silly get     'x-served-by': 'cache-atl6228-ATL',
+352 silly get     'x-cache': 'HIT',
+352 silly get     'x-cache-hits': '4',
+352 silly get     'x-timer': 'S1437078719.865188,VS0,VE0',
+352 silly get     vary: 'Accept' } ]
+353 verbose etag https://registry.npmjs.org/big.js from cache
+354 verbose get saving big.js to /Users/jmartucci/.npm/registry.npmjs.org/big.js/.cache.json
+355 http 304 https://registry.npmjs.org/json5
+356 silly get cb [ 304,
+356 silly get   { date: 'Thu, 16 Jul 2015 20:31:59 GMT',
+356 silly get     via: '1.1 varnish',
+356 silly get     'cache-control': 'max-age=60',
+356 silly get     etag: '"WJHOV7OMGVWCGCCSOCWNWLFT"',
+356 silly get     age: '44',
+356 silly get     connection: 'keep-alive',
+356 silly get     'x-served-by': 'cache-atl6228-ATL',
+356 silly get     'x-cache': 'HIT',
+356 silly get     'x-cache-hits': '2',
+356 silly get     'x-timer': 'S1437078719.866387,VS0,VE0',
+356 silly get     vary: 'Accept' } ]
+357 verbose etag https://registry.npmjs.org/json5 from cache
+358 verbose get saving json5 to /Users/jmartucci/.npm/registry.npmjs.org/json5/.cache.json
+359 silly addNameRange number 2 { name: 'json5', range: '>=0.4.0 <0.5.0', hasData: true }
+360 silly addNameRange versions [ 'json5', [ '0.0.0', '0.0.1', '0.1.0', '0.2.0', '0.4.0' ] ]
+361 silly addNamed json5@0.4.0
+362 verbose addNamed "0.4.0" is a plain semver version for json5
+363 silly addNameRange number 2 { name: 'big.js', range: '>=3.0.2 <4.0.0', hasData: true }
+364 silly addNameRange versions [ 'big.js',
+364 silly addNameRange   [ '2.0.0',
+364 silly addNameRange     '2.1.0',
+364 silly addNameRange     '2.2.0',
+364 silly addNameRange     '2.4.0',
+364 silly addNameRange     '2.4.1',
+364 silly addNameRange     '2.5.0',
+364 silly addNameRange     '2.5.1',
+364 silly addNameRange     '3.0.0',
+364 silly addNameRange     '3.0.1',
+364 silly addNameRange     '3.0.2',
+364 silly addNameRange     '3.1.1',
+364 silly addNameRange     '3.1.2',
+364 silly addNameRange     '3.1.3' ] ]
+365 silly addNamed big.js@3.1.3
+366 verbose addNamed "3.1.3" is a plain semver version for big.js
+367 silly cache afterAdd big.js@3.1.3
+368 verbose afterAdd /Users/jmartucci/.npm/big.js/3.1.3/package/package.json not in flight; writing
+369 silly cache afterAdd json5@0.4.0
+370 verbose afterAdd /Users/jmartucci/.npm/json5/0.4.0/package/package.json not in flight; writing
+371 verbose afterAdd /Users/jmartucci/.npm/json5/0.4.0/package/package.json written
+372 verbose afterAdd /Users/jmartucci/.npm/big.js/3.1.3/package/package.json written
+373 silly install resolved [ { name: 'json5',
+373 silly install resolved     version: '0.4.0',
+373 silly install resolved     description: 'JSON for the ES5 era.',
+373 silly install resolved     keywords: [ 'json', 'es5' ],
+373 silly install resolved     author: { name: 'Aseem Kishore', email: 'aseem.kishore@gmail.com' },
+373 silly install resolved     license: 'MIT',
+373 silly install resolved     contributors: [ [Object], [Object] ],
+373 silly install resolved     main: 'lib/json5.js',
+373 silly install resolved     bin: { json5: 'lib/cli.js' },
+373 silly install resolved     dependencies: {},
+373 silly install resolved     devDependencies: { mocha: '~1.0.3' },
+373 silly install resolved     scripts:
+373 silly install resolved      { build: './lib/cli.js -c package.json5',
+373 silly install resolved        test: 'mocha --ui exports --reporter spec' },
+373 silly install resolved     homepage: 'http://json5.org/',
+373 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/aseemk/json5.git' },
+373 silly install resolved     bugs: { url: 'https://github.com/aseemk/json5/issues' },
+373 silly install resolved     _id: 'json5@0.4.0',
+373 silly install resolved     dist:
+373 silly install resolved      { shasum: '054352e4c4c80c86c0923877d449de176a732c8d',
+373 silly install resolved        tarball: 'http://registry.npmjs.org/json5/-/json5-0.4.0.tgz' },
+373 silly install resolved     _from: 'json5@>=0.4.0 <0.5.0',
+373 silly install resolved     _npmVersion: '1.3.21',
+373 silly install resolved     _npmUser: { name: 'aseemk', email: 'aseem.kishore@gmail.com' },
+373 silly install resolved     maintainers: [ [Object] ],
+373 silly install resolved     directories: {},
+373 silly install resolved     _shasum: '054352e4c4c80c86c0923877d449de176a732c8d',
+373 silly install resolved     _resolved: 'https://registry.npmjs.org/json5/-/json5-0.4.0.tgz',
+373 silly install resolved     readme: 'ERROR: No README data found!' },
+373 silly install resolved   { name: 'big.js',
+373 silly install resolved     description: 'A small, fast, easy-to-use library for arbitrary-precision decimal arithmetic',
+373 silly install resolved     version: '3.1.3',
+373 silly install resolved     keywords:
+373 silly install resolved      [ 'arbitrary',
+373 silly install resolved        'precision',
+373 silly install resolved        'arithmetic',
+373 silly install resolved        'big',
+373 silly install resolved        'number',
+373 silly install resolved        'decimal',
+373 silly install resolved        'float',
+373 silly install resolved        'biginteger',
+373 silly install resolved        'bigdecimal',
+373 silly install resolved        'bignumber',
+373 silly install resolved        'bigint',
+373 silly install resolved        'bignum' ],
+373 silly install resolved     repository:
+373 silly install resolved      { type: 'git',
+373 silly install resolved        url: 'git+https://github.com/MikeMcl/big.js.git' },
+373 silly install resolved     main: './big',
+373 silly install resolved     author: { name: 'Michael Mclaughlin', email: 'M8ch88l@gmail.com' },
+373 silly install resolved     bugs: { url: 'https://github.com/MikeMcl/big.js/issues' },
+373 silly install resolved     engines: { node: '*' },
+373 silly install resolved     license: 'MIT',
+373 silly install resolved     scripts:
+373 silly install resolved      { test: 'node ./test/every-test.js',
+373 silly install resolved        build: 'uglifyjs -o ./big.min.js ./big.js' },
+373 silly install resolved     files: [ 'big.js', 'big.min.js' ],
+373 silly install resolved     gitHead: '86268e96b3dbf6db8ce319489f410277d9d4ea1b',
+373 silly install resolved     homepage: 'https://github.com/MikeMcl/big.js#readme',
+373 silly install resolved     _id: 'big.js@3.1.3',
+373 silly install resolved     _shasum: '4cada2193652eb3ca9ec8e55c9015669c9806978',
+373 silly install resolved     _from: 'big.js@>=3.0.2 <4.0.0',
+373 silly install resolved     _npmVersion: '2.9.1',
+373 silly install resolved     _nodeVersion: '0.12.0',
+373 silly install resolved     _npmUser: { name: 'mikemcl', email: 'M8ch88l@gmail.com' },
+373 silly install resolved     maintainers: [ [Object] ],
+373 silly install resolved     dist:
+373 silly install resolved      { shasum: '4cada2193652eb3ca9ec8e55c9015669c9806978',
+373 silly install resolved        tarball: 'http://registry.npmjs.org/big.js/-/big.js-3.1.3.tgz' },
+373 silly install resolved     directories: {},
+373 silly install resolved     _resolved: 'https://registry.npmjs.org/big.js/-/big.js-3.1.3.tgz',
+373 silly install resolved     readme: 'ERROR: No README data found!' } ]
+374 info install json5@0.4.0 into /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/babel-loader/node_modules/loader-utils
+375 info install big.js@3.1.3 into /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/babel-loader/node_modules/loader-utils
+376 info installOne json5@0.4.0
+377 verbose installOne of json5 to /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/babel-loader/node_modules/loader-utils not in flight; installing
+378 info installOne big.js@3.1.3
+379 verbose installOne of big.js to /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/babel-loader/node_modules/loader-utils not in flight; installing
+380 verbose lock using /Users/jmartucci/.npm/_locks/json5-0874a076730a73ca.lock for /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/babel-loader/node_modules/loader-utils/node_modules/json5
+381 silly install write writing json5 0.4.0 to /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/babel-loader/node_modules/loader-utils/node_modules/json5
+382 verbose lock using /Users/jmartucci/.npm/_locks/big-js-5ea7453412738687.lock for /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/babel-loader/node_modules/loader-utils/node_modules/big.js
+383 silly install write writing big.js 3.1.3 to /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/babel-loader/node_modules/loader-utils/node_modules/big.js
+384 verbose unbuild node_modules/babel-loader/node_modules/loader-utils/node_modules/json5
+385 verbose unbuild node_modules/babel-loader/node_modules/loader-utils/node_modules/big.js
+386 silly gentlyRm /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/babel-loader/node_modules/loader-utils/node_modules/json5 is being purged from base /Users/jmartucci/Dropbox/web_dev/UI-Kit
+387 verbose gentlyRm don't care about contents; nuking /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/babel-loader/node_modules/loader-utils/node_modules/json5
+388 silly gentlyRm /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/babel-loader/node_modules/loader-utils/node_modules/big.js is being purged from base /Users/jmartucci/Dropbox/web_dev/UI-Kit
+389 verbose gentlyRm don't care about contents; nuking /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/babel-loader/node_modules/loader-utils/node_modules/big.js
+390 verbose tar unpack /Users/jmartucci/.npm/json5/0.4.0/package.tgz
+391 verbose tar unpacking to /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/babel-loader/node_modules/loader-utils/node_modules/json5
+392 silly gentlyRm /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/babel-loader/node_modules/loader-utils/node_modules/json5 is being purged
+393 verbose gentlyRm don't care about contents; nuking /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/babel-loader/node_modules/loader-utils/node_modules/json5
+394 verbose tar unpack /Users/jmartucci/.npm/big.js/3.1.3/package.tgz
+395 verbose tar unpacking to /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/babel-loader/node_modules/loader-utils/node_modules/big.js
+396 silly gentlyRm /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/babel-loader/node_modules/loader-utils/node_modules/big.js is being purged
+397 verbose gentlyRm don't care about contents; nuking /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/babel-loader/node_modules/loader-utils/node_modules/big.js
+398 silly gunzTarPerm modes [ '755', '644' ]
+399 silly gunzTarPerm modes [ '755', '644' ]
+400 silly gunzTarPerm extractEntry package.json
+401 silly gunzTarPerm extractEntry package.json
+402 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+403 silly gunzTarPerm extractEntry .npmignore
+404 silly gunzTarPerm extractEntry README.md
+405 silly gunzTarPerm extractEntry README.md
+406 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+407 silly gunzTarPerm extractEntry LICENCE
+408 silly gunzTarPerm modified mode [ 'LICENCE', 438, 420 ]
+409 silly gunzTarPerm extractEntry .editorconfig
+410 silly gunzTarPerm extractEntry .travis.yml
+411 silly gunzTarPerm extractEntry big.js
+412 silly gunzTarPerm modified mode [ 'big.js', 438, 420 ]
+413 silly gunzTarPerm extractEntry big.min.js
+414 silly gunzTarPerm modified mode [ 'big.min.js', 438, 420 ]
+415 silly gunzTarPerm extractEntry CHANGELOG.md
+416 silly gunzTarPerm extractEntry lib/cli.js
+417 silly gunzTarPerm extractEntry lib/json5.js
+418 silly gunzTarPerm extractEntry lib/require.js
+419 silly gunzTarPerm extractEntry package.json5
+420 silly gunzTarPerm extractEntry test/parse.js
+421 silly gunzTarPerm extractEntry test/require.js
+422 silly gunzTarPerm extractEntry test/stringify.js
+423 silly gunzTarPerm extractEntry test/parse-cases/arrays/leading-comma-array.js
+424 silly gunzTarPerm extractEntry test/parse-cases/arrays/lone-trailing-comma-array.js
+425 silly gunzTarPerm extractEntry test/parse-cases/arrays/empty-array.json
+426 silly gunzTarPerm extractEntry test/parse-cases/arrays/no-comma-array.txt
+427 silly gunzTarPerm extractEntry test/parse-cases/arrays/regular-array.json
+428 silly gunzTarPerm extractEntry test/parse-cases/arrays/trailing-comma-array.json5
+429 silly gunzTarPerm extractEntry test/parse-cases/comments/inline-comment-following-top-level-value.json5
+430 silly gunzTarPerm extractEntry test/parse-cases/comments/block-comment-following-array-element.json5
+431 silly gunzTarPerm extractEntry test/parse-cases/comments/block-comment-in-string.json
+432 silly gunzTarPerm extractEntry test/parse-cases/comments/block-comment-preceding-top-level-value.json5
+433 silly gunzTarPerm extractEntry test/parse-cases/comments/block-comment-with-asterisks.json5
+434 silly gunzTarPerm extractEntry test/parse-cases/comments/inline-comment-following-array-element.json5
+435 silly gunzTarPerm extractEntry test/parse-cases/comments/block-comment-following-top-level-value.json5
+436 silly gunzTarPerm extractEntry test/parse-cases/comments/inline-comment-in-string.json
+437 silly gunzTarPerm extractEntry test/parse-cases/comments/inline-comment-preceding-top-level-value.json5
+438 silly gunzTarPerm extractEntry test/parse-cases/comments/top-level-block-comment.txt
+439 silly gunzTarPerm extractEntry test/parse-cases/comments/top-level-inline-comment.txt
+440 silly gunzTarPerm extractEntry test/parse-cases/comments/unterminated-block-comment.txt
+441 silly gunzTarPerm extractEntry test/parse-cases/misc/empty.txt
+442 silly gunzTarPerm extractEntry test/parse-cases/misc/npm-package.json
+443 silly gunzTarPerm extractEntry test/parse-cases/misc/npm-package.json5
+444 silly gunzTarPerm extractEntry test/parse-cases/misc/readme-example.json5
+445 silly gunzTarPerm extractEntry test/parse-cases/misc/valid-whitespace.json5
+446 silly gunzTarPerm extractEntry test/parse-cases/new-lines/.editorconfig
+447 silly gunzTarPerm extractEntry test/parse-cases/new-lines/.gitattributes
+448 silly gunzTarPerm extractEntry test/parse-cases/new-lines/comment-cr.json5
+449 silly gunzTarPerm extractEntry test/parse-cases/new-lines/comment-crlf.json5
+450 silly gunzTarPerm extractEntry test/parse-cases/new-lines/comment-lf.json5
+451 silly gunzTarPerm extractEntry test/parse-cases/new-lines/escaped-cr.json5
+452 silly gunzTarPerm extractEntry test/parse-cases/new-lines/escaped-crlf.json5
+453 silly gunzTarPerm extractEntry test/parse-cases/new-lines/escaped-lf.json5
+454 silly gunzTarPerm extractEntry test/parse-cases/numbers/negative-noctal.js
+455 silly gunzTarPerm extractEntry test/parse-cases/numbers/noctal-with-leading-octal-digit.js
+456 silly gunzTarPerm extractEntry test/parse-cases/numbers/noctal.js
+457 silly gunzTarPerm extractEntry test/parse-cases/numbers/positive-noctal.js
+458 silly gunzTarPerm extractEntry test/parse-cases/numbers/negative-zero-binary-coffeescript.txt
+459 silly gunzTarPerm extractEntry test/parse-cases/numbers/float-with-integer-exponent.json
+460 silly gunzTarPerm extractEntry test/parse-cases/numbers/float.json
+461 silly gunzTarPerm extractEntry test/parse-cases/numbers/hexadecimal-empty.txt
+462 silly gunzTarPerm extractEntry test/parse-cases/numbers/hexadecimal-lowercase-letter.json5
+463 silly gunzTarPerm extractEntry test/parse-cases/numbers/hexadecimal-uppercase-x.json5
+464 silly gunzTarPerm extractEntry test/parse-cases/numbers/hexadecimal-with-integer-exponent.json5
+465 silly gunzTarPerm extractEntry test/parse-cases/numbers/hexadecimal.json5
+466 silly gunzTarPerm extractEntry test/parse-cases/numbers/infinity.json5
+467 silly gunzTarPerm extractEntry test/parse-cases/numbers/integer-with-float-exponent.txt
+468 silly gunzTarPerm extractEntry test/parse-cases/numbers/integer-with-hexadecimal-exponent.txt
+469 silly gunzTarPerm extractEntry test/parse-cases/numbers/integer-with-integer-exponent.json
+470 silly gunzTarPerm extractEntry test/parse-cases/numbers/integer-with-negative-float-exponent.txt
+471 silly gunzTarPerm extractEntry test/parse-cases/numbers/integer-with-negative-hexadecimal-exponent.txt
+472 silly gunzTarPerm extractEntry test/parse-cases/numbers/integer-with-negative-integer-exponent.json
+473 silly gunzTarPerm extractEntry test/parse-cases/numbers/integer-with-negative-zero-integer-exponent.json
+474 silly gunzTarPerm extractEntry test/parse-cases/numbers/integer-with-positive-float-exponent.txt
+475 silly gunzTarPerm extractEntry test/parse-cases/numbers/integer-with-positive-hexadecimal-exponent.txt
+476 silly gunzTarPerm extractEntry test/parse-cases/numbers/integer-with-positive-integer-exponent.json
+477 silly gunzTarPerm extractEntry test/parse-cases/numbers/integer-with-positive-zero-integer-exponent.json
+478 silly gunzTarPerm extractEntry test/parse-cases/numbers/integer-with-zero-integer-exponent.json
+479 silly gunzTarPerm extractEntry test/parse-cases/numbers/integer.json
+480 silly gunzTarPerm extractEntry test/parse-cases/numbers/lone-decimal-point.txt
+481 silly gunzTarPerm extractEntry test/parse-cases/numbers/nan.json5
+482 silly gunzTarPerm extractEntry test/parse-cases/numbers/negative-binary-coffeescript.txt
+483 silly gunzTarPerm extractEntry test/parse-cases/numbers/negative-float-leading-decimal-point.json5
+484 silly gunzTarPerm extractEntry test/parse-cases/numbers/negative-float-leading-zero.json
+485 silly gunzTarPerm extractEntry test/parse-cases/numbers/negative-float-trailing-decimal-point.json5
+486 silly gunzTarPerm extractEntry test/parse-cases/numbers/negative-float.json
+487 silly gunzTarPerm extractEntry test/parse-cases/numbers/negative-hexadecimal.json5
+488 silly gunzTarPerm extractEntry test/parse-cases/numbers/negative-infinity.json5
+489 silly gunzTarPerm extractEntry test/parse-cases/numbers/negative-integer.json
+490 silly gunzTarPerm extractEntry test/parse-cases/numbers/binary-coffeescript.txt
+491 silly gunzTarPerm extractEntry test/parse-cases/numbers/negative-octal-coffeescript.txt
+492 silly gunzTarPerm extractEntry test/parse-cases/numbers/negative-octal.txt
+493 silly gunzTarPerm extractEntry test/parse-cases/numbers/float-leading-decimal-point.json5
+494 silly gunzTarPerm extractEntry test/parse-cases/numbers/negative-zero-float-leading-decimal-point.json5
+495 silly gunzTarPerm extractEntry test/parse-cases/numbers/negative-zero-float-trailing-decimal-point.json5
+496 silly gunzTarPerm extractEntry test/parse-cases/numbers/negative-zero-float.json
+497 silly gunzTarPerm extractEntry test/parse-cases/numbers/negative-zero-hexadecimal.json5
+498 silly gunzTarPerm extractEntry test/parse-cases/numbers/negative-zero-integer.json
+499 silly gunzTarPerm extractEntry test/parse-cases/numbers/negative-zero-octal-coffeescript.txt
+500 silly gunzTarPerm extractEntry test/parse-cases/numbers/negative-zero-octal.txt
+501 silly gunzTarPerm extractEntry test/parse-cases/numbers/float-leading-zero.json
+502 silly gunzTarPerm extractEntry test/parse-cases/numbers/float-trailing-decimal-point-with-integer-exponent.json5
+503 silly gunzTarPerm extractEntry test/parse-cases/numbers/octal-coffeescript.txt
+504 silly gunzTarPerm extractEntry test/parse-cases/numbers/octal.txt
+505 silly gunzTarPerm extractEntry test/parse-cases/numbers/positive-binary-coffeescript.txt
+506 silly gunzTarPerm extractEntry test/parse-cases/numbers/positive-float-leading-decimal-point.json5
+507 silly gunzTarPerm extractEntry test/parse-cases/numbers/positive-float-leading-zero.json5
+508 silly gunzTarPerm extractEntry test/parse-cases/numbers/positive-float-trailing-decimal-point.json5
+509 silly gunzTarPerm extractEntry test/parse-cases/numbers/positive-float.json5
+510 silly gunzTarPerm extractEntry test/parse-cases/numbers/positive-hexadecimal.json5
+511 silly gunzTarPerm extractEntry test/parse-cases/numbers/positive-infinity.json5
+512 silly gunzTarPerm extractEntry test/parse-cases/numbers/positive-integer.json5
+513 silly gunzTarPerm extractEntry test/parse-cases/numbers/float-trailing-decimal-point.json5
+514 silly gunzTarPerm extractEntry test/parse-cases/numbers/positive-octal-coffeescript.txt
+515 silly gunzTarPerm extractEntry test/parse-cases/numbers/positive-octal.txt
+516 silly gunzTarPerm extractEntry test/parse-cases/numbers/positive-zero-binary-coffeescript.txt
+517 silly gunzTarPerm extractEntry test/parse-cases/numbers/positive-zero-float-leading-decimal-point.json5
+518 silly gunzTarPerm extractEntry test/parse-cases/numbers/positive-zero-float-trailing-decimal-point.json5
+519 silly gunzTarPerm extractEntry test/parse-cases/numbers/positive-zero-float.json5
+520 silly gunzTarPerm extractEntry test/parse-cases/numbers/positive-zero-hexadecimal.json5
+521 silly gunzTarPerm extractEntry test/parse-cases/numbers/positive-zero-integer.json5
+522 silly gunzTarPerm extractEntry test/parse-cases/numbers/positive-zero-octal-coffeescript.txt
+523 silly gunzTarPerm extractEntry test/parse-cases/numbers/positive-zero-octal.txt
+524 silly gunzTarPerm extractEntry test/parse-cases/numbers/zero-binary-coffeescript.txt
+525 silly gunzTarPerm extractEntry test/parse-cases/numbers/zero-float-leading-decimal-point.json5
+526 silly gunzTarPerm extractEntry test/parse-cases/numbers/zero-float-trailing-decimal-point.json5
+527 silly gunzTarPerm extractEntry test/parse-cases/numbers/zero-float.json
+528 silly gunzTarPerm extractEntry test/parse-cases/numbers/zero-hexadecimal.json5
+529 silly gunzTarPerm extractEntry test/parse-cases/numbers/zero-integer-with-integer-exponent.json
+530 silly gunzTarPerm extractEntry test/parse-cases/numbers/zero-integer.json
+531 silly gunzTarPerm extractEntry test/parse-cases/numbers/zero-octal-coffeescript.txt
+532 silly gunzTarPerm extractEntry test/parse-cases/numbers/zero-octal.txt
+533 silly gunzTarPerm extractEntry test/parse-cases/objects/lone-trailing-comma-object.txt
+534 silly gunzTarPerm extractEntry test/parse-cases/objects/duplicate-keys.json
+535 silly gunzTarPerm extractEntry test/parse-cases/objects/illegal-unquoted-key-number.txt
+536 silly gunzTarPerm extractEntry test/parse-cases/objects/illegal-unquoted-key-symbol.txt
+537 silly gunzTarPerm extractEntry test/parse-cases/objects/leading-comma-object.txt
+538 silly gunzTarPerm extractEntry test/parse-cases/objects/empty-object.json
+539 silly gunzTarPerm extractEntry test/parse-cases/objects/no-comma-object.txt
+540 silly gunzTarPerm extractEntry test/parse-cases/objects/reserved-unquoted-key.json5
+541 silly gunzTarPerm extractEntry test/parse-cases/objects/single-quoted-key.json5
+542 silly gunzTarPerm extractEntry test/parse-cases/objects/trailing-comma-object.json5
+543 silly gunzTarPerm extractEntry test/parse-cases/objects/unquoted-keys.json5
+544 silly gunzTarPerm extractEntry test/parse-cases/strings/escaped-single-quoted-string.json5
+545 silly gunzTarPerm extractEntry test/parse-cases/strings/multi-line-string.json5
+546 silly gunzTarPerm extractEntry test/parse-cases/strings/single-quoted-string.json5
+547 silly gunzTarPerm extractEntry test/parse-cases/strings/unescaped-multi-line-string.txt
+548 silly gunzTarPerm extractEntry test/parse-cases/todo/unicode-escaped-unquoted-key.json5
+549 silly gunzTarPerm extractEntry test/parse-cases/todo/unicode-unquoted-key.json5
+550 silly gunzTarPerm extractEntry test/readme.md
+551 verbose write writing to /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/babel-loader/node_modules/loader-utils/node_modules/big.js/package.json
+552 info preinstall big.js@3.1.3
+553 verbose readDependencies loading dependencies from /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/babel-loader/node_modules/loader-utils/node_modules/big.js/package.json
+554 verbose readDependencies loading dependencies from /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/babel-loader/node_modules/loader-utils/node_modules/big.js/package.json
+555 silly install resolved []
+556 verbose about to build /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/babel-loader/node_modules/loader-utils/node_modules/big.js
+557 info build /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/babel-loader/node_modules/loader-utils/node_modules/big.js
+558 info linkStuff big.js@3.1.3
+559 silly linkStuff big.js@3.1.3 has /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/babel-loader/node_modules/loader-utils/node_modules as its parent node_modules
+560 verbose linkBins big.js@3.1.3
+561 verbose linkMans big.js@3.1.3
+562 verbose rebuildBundles big.js@3.1.3
+563 info install big.js@3.1.3
+564 info postinstall big.js@3.1.3
+565 verbose unlock done using /Users/jmartucci/.npm/_locks/big-js-5ea7453412738687.lock for /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/babel-loader/node_modules/loader-utils/node_modules/big.js
+566 verbose write writing to /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/babel-loader/node_modules/loader-utils/node_modules/json5/package.json
+567 info preinstall json5@0.4.0
+568 verbose readDependencies loading dependencies from /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/babel-loader/node_modules/loader-utils/node_modules/json5/package.json
+569 verbose readDependencies loading dependencies from /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/babel-loader/node_modules/loader-utils/node_modules/json5/package.json
+570 silly install resolved []
+571 verbose about to build /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/babel-loader/node_modules/loader-utils/node_modules/json5
+572 info build /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/babel-loader/node_modules/loader-utils/node_modules/json5
+573 info linkStuff json5@0.4.0
+574 silly linkStuff json5@0.4.0 has /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/babel-loader/node_modules/loader-utils/node_modules as its parent node_modules
+575 verbose linkBins json5@0.4.0
+576 verbose link bins [ { json5: 'lib/cli.js' },
+576 verbose link bins   '/Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/babel-loader/node_modules/loader-utils/node_modules/.bin',
+576 verbose link bins   false ]
+577 verbose linkMans json5@0.4.0
+578 verbose rebuildBundles json5@0.4.0
+579 silly gentlyRm /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/babel-loader/node_modules/loader-utils/node_modules/.bin/json5 is being purged
+580 verbose gentlyRm don't care about contents; nuking /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/babel-loader/node_modules/loader-utils/node_modules/.bin/json5
+581 info install json5@0.4.0
+582 info postinstall json5@0.4.0
+583 verbose unlock done using /Users/jmartucci/.npm/_locks/json5-0874a076730a73ca.lock for /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/babel-loader/node_modules/loader-utils/node_modules/json5
+584 verbose about to build /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/babel-loader/node_modules/loader-utils
+585 info build /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/babel-loader/node_modules/loader-utils
+586 info linkStuff loader-utils@0.2.10
+587 silly linkStuff loader-utils@0.2.10 has /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/babel-loader/node_modules as its parent node_modules
+588 verbose linkBins loader-utils@0.2.10
+589 verbose linkMans loader-utils@0.2.10
+590 verbose rebuildBundles loader-utils@0.2.10
+591 verbose rebuildBundles [ '.bin', 'big.js', 'json5' ]
+592 info install loader-utils@0.2.10
+593 info postinstall loader-utils@0.2.10
+594 verbose unlock done using /Users/jmartucci/.npm/_locks/loader-utils-6202e12f746c2bfd.lock for /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/babel-loader/node_modules/loader-utils
+595 verbose about to build /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/babel-loader
+596 info build /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/babel-loader
+597 info linkStuff babel-loader@5.3.2
+598 silly linkStuff babel-loader@5.3.2 has /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules as its parent node_modules
+599 verbose linkBins babel-loader@5.3.2
+600 verbose linkMans babel-loader@5.3.2
+601 verbose rebuildBundles babel-loader@5.3.2
+602 verbose rebuildBundles [ 'loader-utils', 'object-assign' ]
+603 info install babel-loader@5.3.2
+604 info postinstall babel-loader@5.3.2
+605 verbose unlock done using /Users/jmartucci/.npm/_locks/babel-loader-cd8f00beec98c601.lock for /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/babel-loader
+606 info build /Users/jmartucci/Dropbox/web_dev/UI-Kit
+607 info linkStuff virgil@0.0.1
+608 silly linkStuff virgil@0.0.1 has /Users/jmartucci/Dropbox/web_dev as its parent node_modules
+609 verbose linkBins virgil@0.0.1
+610 verbose linkMans virgil@0.0.1
+611 verbose rebuildBundles virgil@0.0.1
+612 verbose rebuildBundles [ '.bin',
+612 verbose rebuildBundles   'autoprefixer',
+612 verbose rebuildBundles   'autoprefixer-core',
+612 verbose rebuildBundles   'autoprefixer-loader',
+612 verbose rebuildBundles   'babel-core',
+612 verbose rebuildBundles   'babel-loader',
+612 verbose rebuildBundles   'browserify-fs',
+612 verbose rebuildBundles   'chromath',
+612 verbose rebuildBundles   'classnames',
+612 verbose rebuildBundles   'css-loader',
+612 verbose rebuildBundles   'cssnext',
+612 verbose rebuildBundles   'cssnext-loader',
+612 verbose rebuildBundles   'csswring',
+612 verbose rebuildBundles   'extract-text-webpack-plugin',
+612 verbose rebuildBundles   'file-loader',
+612 verbose rebuildBundles   'highlight',
+612 verbose rebuildBundles   'highlight.js',
+612 verbose rebuildBundles   'js-beautify',
+612 verbose rebuildBundles   'json-loader',
+612 verbose rebuildBundles   'jsx-loader',
+612 verbose rebuildBundles   'node-libs-browser',
+612 verbose rebuildBundles   'node-sass',
+612 verbose rebuildBundles   'postcss-loader',
+612 verbose rebuildBundles   'postcss-map',
+612 verbose rebuildBundles   'postcss-mixins',
+612 verbose rebuildBundles   'postcss-nested',
+612 verbose rebuildBundles   'postcss-simple-vars',
+612 verbose rebuildBundles   'react',
+612 verbose rebuildBundles   'react-router',
+612 verbose rebuildBundles   'react-to-jsx',
+612 verbose rebuildBundles   'sass-loader',
+612 verbose rebuildBundles   'style-loader',
+612 verbose rebuildBundles   'url-loader',
+612 verbose rebuildBundles   'velocity-animate',
+612 verbose rebuildBundles   'webpack' ]
+613 verbose rebuild bundle /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/autoprefixer-core
+614 info build /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/autoprefixer-core
+615 info preinstall autoprefixer-core@5.2.1
+616 info linkStuff autoprefixer-core@5.2.1
+617 silly linkStuff autoprefixer-core@5.2.1 has /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules as its parent node_modules
+618 verbose linkBins autoprefixer-core@5.2.1
+619 verbose linkMans autoprefixer-core@5.2.1
+620 verbose rebuildBundles autoprefixer-core@5.2.1
+621 verbose rebuildBundles [ 'browserslist', 'caniuse-db', 'num2fraction', 'postcss' ]
+622 info install autoprefixer-core@5.2.1
+623 info postinstall autoprefixer-core@5.2.1
+624 verbose rebuild bundle /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/autoprefixer-loader
+625 info build /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/autoprefixer-loader
+626 info preinstall autoprefixer-loader@1.1.0
+627 info linkStuff autoprefixer-loader@1.1.0
+628 silly linkStuff autoprefixer-loader@1.1.0 has /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules as its parent node_modules
+629 verbose linkBins autoprefixer-loader@1.1.0
+630 verbose linkMans autoprefixer-loader@1.1.0
+631 verbose rebuildBundles autoprefixer-loader@1.1.0
+632 verbose rebuildBundles [ 'autoprefixer-core', 'loader-utils' ]
+633 info install autoprefixer-loader@1.1.0
+634 info postinstall autoprefixer-loader@1.1.0
+635 verbose rebuild bundle /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/browserify-fs
+636 info build /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/browserify-fs
+637 info preinstall browserify-fs@1.0.0
+638 info linkStuff browserify-fs@1.0.0
+639 silly linkStuff browserify-fs@1.0.0 has /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules as its parent node_modules
+640 verbose linkBins browserify-fs@1.0.0
+641 verbose linkMans browserify-fs@1.0.0
+642 verbose rebuildBundles browserify-fs@1.0.0
+643 verbose rebuildBundles [ 'level-filesystem', 'level-js', 'levelup' ]
+644 info install browserify-fs@1.0.0
+645 info postinstall browserify-fs@1.0.0
+646 verbose rebuild bundle /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/classnames
+647 info build /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/classnames
+648 info preinstall classnames@2.1.2
+649 info linkStuff classnames@2.1.2
+650 silly linkStuff classnames@2.1.2 has /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules as its parent node_modules
+651 verbose linkBins classnames@2.1.2
+652 verbose linkMans classnames@2.1.2
+653 verbose rebuildBundles classnames@2.1.2
+654 info install classnames@2.1.2
+655 info postinstall classnames@2.1.2
+656 verbose rebuild bundle /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/cssnext
+657 info build /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/cssnext
+658 info preinstall cssnext@1.8.0
+659 info linkStuff cssnext@1.8.0
+660 silly linkStuff cssnext@1.8.0 has /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules as its parent node_modules
+661 verbose linkBins cssnext@1.8.0
+662 verbose link bins [ { cssnext: 'dist/bin.js' },
+662 verbose link bins   '/Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/.bin',
+662 verbose link bins   false ]
+663 verbose linkMans cssnext@1.8.0
+664 verbose rebuildBundles cssnext@1.8.0
+665 silly gentlyRm /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/.bin/cssnext is being purged
+666 verbose gentlyRm don't care about contents; nuking /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/.bin/cssnext
+667 silly vacuum-fs purging /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/.bin/cssnext
+668 verbose rebuildBundles [ '.bin',
+668 verbose rebuildBundles   'caniuse-api',
+668 verbose rebuildBundles   'chalk',
+668 verbose rebuildBundles   'chokidar',
+668 verbose rebuildBundles   'commander',
+668 verbose rebuildBundles   'cssnano',
+668 verbose rebuildBundles   'exit',
+668 verbose rebuildBundles   'mkdirp',
+668 verbose rebuildBundles   'pixrem',
+668 verbose rebuildBundles   'pleeease-filters',
+668 verbose rebuildBundles   'postcss',
+668 verbose rebuildBundles   'postcss-calc',
+668 verbose rebuildBundles   'postcss-color-function',
+668 verbose rebuildBundles   'postcss-color-gray',
+668 verbose rebuildBundles   'postcss-color-hex-alpha',
+668 verbose rebuildBundles   'postcss-color-hwb',
+668 verbose rebuildBundles   'postcss-color-rebeccapurple',
+668 verbose rebuildBundles   'postcss-color-rgba-fallback',
+668 verbose rebuildBundles   'postcss-custom-media',
+668 verbose rebuildBundles   'postcss-custom-properties',
+668 verbose rebuildBundles   'postcss-custom-selectors',
+668 verbose rebuildBundles   'postcss-font-variant',
+668 verbose rebuildBundles   'postcss-import',
+668 verbose rebuildBundles   'postcss-media-minmax',
+668 verbose rebuildBundles   'postcss-messages',
+668 verbose rebuildBundles   'postcss-pseudo-class-any-link',
+668 verbose rebuildBundles   'postcss-pseudoelements',
+668 verbose rebuildBundles   'postcss-reporter',
+668 verbose rebuildBundles   'postcss-selector-matches',
+668 verbose rebuildBundles   'postcss-selector-not',
+668 verbose rebuildBundles   'postcss-url',
+668 verbose rebuildBundles   'read-file-stdin',
+668 verbose rebuildBundles   'to-slug-case',
+668 verbose rebuildBundles   'to-space-case',
+668 verbose rebuildBundles   'write-file-stdout' ]
+669 silly vacuum-fs quitting because other entries in /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/.bin
+670 info install cssnext@1.8.0
+671 info postinstall cssnext@1.8.0
+672 verbose rebuild bundle /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/cssnext-loader
+673 info build /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/cssnext-loader
+674 info preinstall cssnext-loader@1.0.1
+675 info linkStuff cssnext-loader@1.0.1
+676 silly linkStuff cssnext-loader@1.0.1 has /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules as its parent node_modules
+677 verbose linkBins cssnext-loader@1.0.1
+678 verbose linkMans cssnext-loader@1.0.1
+679 verbose rebuildBundles cssnext-loader@1.0.1
+680 verbose rebuildBundles [ 'loader-utils', 'object-assign' ]
+681 info install cssnext-loader@1.0.1
+682 info postinstall cssnext-loader@1.0.1
+683 verbose rebuild bundle /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/highlight
+684 info build /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/highlight
+685 info preinstall highlight@0.2.3
+686 info linkStuff highlight@0.2.3
+687 silly linkStuff highlight@0.2.3 has /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules as its parent node_modules
+688 verbose linkBins highlight@0.2.3
+689 verbose linkMans highlight@0.2.3
+690 verbose rebuildBundles highlight@0.2.3
+691 info install highlight@0.2.3
+692 info postinstall highlight@0.2.3
+693 verbose rebuild bundle /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/json-loader
+694 info build /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/json-loader
+695 info preinstall json-loader@0.5.2
+696 info linkStuff json-loader@0.5.2
+697 silly linkStuff json-loader@0.5.2 has /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules as its parent node_modules
+698 verbose linkBins json-loader@0.5.2
+699 verbose linkMans json-loader@0.5.2
+700 verbose rebuildBundles json-loader@0.5.2
+701 info install json-loader@0.5.2
+702 info postinstall json-loader@0.5.2
+703 verbose rebuild bundle /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/jsx-loader
+704 info build /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/jsx-loader
+705 info preinstall jsx-loader@0.13.2
+706 info linkStuff jsx-loader@0.13.2
+707 silly linkStuff jsx-loader@0.13.2 has /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules as its parent node_modules
+708 verbose linkBins jsx-loader@0.13.2
+709 verbose linkMans jsx-loader@0.13.2
+710 verbose rebuildBundles jsx-loader@0.13.2
+711 verbose rebuildBundles [ '.bin', 'jstransform', 'loader-utils' ]
+712 info install jsx-loader@0.13.2
+713 info postinstall jsx-loader@0.13.2
+714 verbose rebuild bundle /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/node-libs-browser
+715 info build /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/node-libs-browser
+716 info preinstall node-libs-browser@0.5.2
+717 info linkStuff node-libs-browser@0.5.2
+718 silly linkStuff node-libs-browser@0.5.2 has /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules as its parent node_modules
+719 verbose linkBins node-libs-browser@0.5.2
+720 verbose linkMans node-libs-browser@0.5.2
+721 verbose rebuildBundles node-libs-browser@0.5.2
+722 verbose rebuildBundles [ 'assert',
+722 verbose rebuildBundles   'browserify-zlib',
+722 verbose rebuildBundles   'buffer',
+722 verbose rebuildBundles   'console-browserify',
+722 verbose rebuildBundles   'constants-browserify',
+722 verbose rebuildBundles   'crypto-browserify',
+722 verbose rebuildBundles   'domain-browser',
+722 verbose rebuildBundles   'events',
+722 verbose rebuildBundles   'http-browserify',
+722 verbose rebuildBundles   'https-browserify',
+722 verbose rebuildBundles   'os-browserify',
+722 verbose rebuildBundles   'path-browserify',
+722 verbose rebuildBundles   'process',
+722 verbose rebuildBundles   'punycode',
+722 verbose rebuildBundles   'querystring-es3',
+722 verbose rebuildBundles   'readable-stream',
+722 verbose rebuildBundles   'stream-browserify',
+722 verbose rebuildBundles   'string_decoder',
+722 verbose rebuildBundles   'timers-browserify',
+722 verbose rebuildBundles   'tty-browserify',
+722 verbose rebuildBundles   'url',
+722 verbose rebuildBundles   'util',
+722 verbose rebuildBundles   'vm-browserify' ]
+723 info install node-libs-browser@0.5.2
+724 info postinstall node-libs-browser@0.5.2
+725 verbose rebuild bundle /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/node-sass
+726 info build /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/node-sass
+727 info preinstall node-sass@3.2.0
+728 info linkStuff node-sass@3.2.0
+729 silly linkStuff node-sass@3.2.0 has /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules as its parent node_modules
+730 verbose linkBins node-sass@3.2.0
+731 verbose link bins [ { 'node-sass': 'bin/node-sass' },
+731 verbose link bins   '/Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/.bin',
+731 verbose link bins   false ]
+732 verbose linkMans node-sass@3.2.0
+733 verbose rebuildBundles node-sass@3.2.0
+734 silly gentlyRm /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/.bin/node-sass is being purged
+735 verbose gentlyRm don't care about contents; nuking /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/.bin/node-sass
+736 silly vacuum-fs purging /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/.bin/node-sass
+737 verbose rebuildBundles [ '.bin',
+737 verbose rebuildBundles   'async-foreach',
+737 verbose rebuildBundles   'chalk',
+737 verbose rebuildBundles   'gaze',
+737 verbose rebuildBundles   'get-stdin',
+737 verbose rebuildBundles   'glob',
+737 verbose rebuildBundles   'meow',
+737 verbose rebuildBundles   'mkdirp',
+737 verbose rebuildBundles   'nan',
+737 verbose rebuildBundles   'npmconf',
+737 verbose rebuildBundles   'pangyp',
+737 verbose rebuildBundles   'request',
+737 verbose rebuildBundles   'sass-graph' ]
+738 silly vacuum-fs quitting because other entries in /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/.bin
+739 info install node-sass@3.2.0
+740 verbose unsafe-perm in lifecycle true
+741 info postinstall node-sass@3.2.0
+742 verbose unsafe-perm in lifecycle true
+743 verbose rebuild bundle /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/postcss-map
+744 info build /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/postcss-map
+745 info preinstall postcss-map@0.4.1
+746 info linkStuff postcss-map@0.4.1
+747 silly linkStuff postcss-map@0.4.1 has /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules as its parent node_modules
+748 verbose linkBins postcss-map@0.4.1
+749 verbose linkMans postcss-map@0.4.1
+750 verbose rebuildBundles postcss-map@0.4.1
+751 verbose rebuildBundles [ '.bin',
+751 verbose rebuildBundles   'js-yaml',
+751 verbose rebuildBundles   'parse-filepath',
+751 verbose rebuildBundles   'postcss',
+751 verbose rebuildBundles   'reduce-function-call' ]
+752 info install postcss-map@0.4.1
+753 info postinstall postcss-map@0.4.1
+754 verbose rebuild bundle /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/postcss-mixins
+755 info build /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/postcss-mixins
+756 info preinstall postcss-mixins@0.3.0
+757 info linkStuff postcss-mixins@0.3.0
+758 silly linkStuff postcss-mixins@0.3.0 has /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules as its parent node_modules
+759 verbose linkBins postcss-mixins@0.3.0
+760 verbose linkMans postcss-mixins@0.3.0
+761 verbose rebuildBundles postcss-mixins@0.3.0
+762 verbose rebuildBundles [ 'postcss' ]
+763 info install postcss-mixins@0.3.0
+764 info postinstall postcss-mixins@0.3.0
+765 verbose rebuild bundle /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/postcss-nested
+766 info build /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/postcss-nested
+767 info preinstall postcss-nested@0.3.2
+768 info linkStuff postcss-nested@0.3.2
+769 silly linkStuff postcss-nested@0.3.2 has /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules as its parent node_modules
+770 verbose linkBins postcss-nested@0.3.2
+771 verbose linkMans postcss-nested@0.3.2
+772 verbose rebuildBundles postcss-nested@0.3.2
+773 verbose rebuildBundles [ 'postcss' ]
+774 info install postcss-nested@0.3.2
+775 info postinstall postcss-nested@0.3.2
+776 verbose rebuild bundle /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/postcss-simple-vars
+777 info build /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/postcss-simple-vars
+778 info preinstall postcss-simple-vars@0.3.0
+779 info linkStuff postcss-simple-vars@0.3.0
+780 silly linkStuff postcss-simple-vars@0.3.0 has /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules as its parent node_modules
+781 verbose linkBins postcss-simple-vars@0.3.0
+782 verbose linkMans postcss-simple-vars@0.3.0
+783 verbose rebuildBundles postcss-simple-vars@0.3.0
+784 verbose rebuildBundles [ 'postcss' ]
+785 info install postcss-simple-vars@0.3.0
+786 info postinstall postcss-simple-vars@0.3.0
+787 verbose rebuild bundle /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/velocity-animate
+788 info build /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules/velocity-animate
+789 info preinstall velocity-animate@1.2.2
+790 info linkStuff velocity-animate@1.2.2
+791 silly linkStuff velocity-animate@1.2.2 has /Users/jmartucci/Dropbox/web_dev/UI-Kit/node_modules as its parent node_modules
+792 verbose linkBins velocity-animate@1.2.2
+793 verbose linkMans velocity-animate@1.2.2
+794 verbose rebuildBundles velocity-animate@1.2.2
+795 verbose rebuildBundles [ 'jquery' ]
+796 info install velocity-animate@1.2.2
+797 info postinstall velocity-animate@1.2.2
+798 info install virgil@0.0.1
+799 info postinstall virgil@0.0.1
+800 verbose unsafe-perm in lifecycle true
+801 info virgil@0.0.1 Failed to exec postinstall script
+802 verbose stack Error: virgil@0.0.1 postinstall: `webpack-dev-server`
+802 verbose stack Exit status 1
+802 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:213:16)
+802 verbose stack     at EventEmitter.emit (events.js:110:17)
+802 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:24:14)
+802 verbose stack     at ChildProcess.emit (events.js:110:17)
+802 verbose stack     at maybeClose (child_process.js:1008:16)
+802 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:1080:5)
+803 verbose pkgid virgil@0.0.1
+804 verbose cwd /Users/jmartucci/Dropbox/web_dev/UI-Kit
+805 error Darwin 14.4.0
+806 error argv "node" "/usr/local/bin/npm" "install"
+807 error node v0.12.1
+808 error npm  v2.11.3
+809 error code ELIFECYCLE
+810 error virgil@0.0.1 postinstall: `webpack-dev-server`
+810 error Exit status 1
+811 error Failed at the virgil@0.0.1 postinstall script 'webpack-dev-server'.
+811 error This is most likely a problem with the virgil package,
+811 error not with npm itself.
+811 error Tell the author that this fails on your system:
+811 error     webpack-dev-server
+811 error You can get their info via:
+811 error     npm owner ls virgil
+811 error There is likely additional logging output above.
+812 verbose exit [ 1, true ]
