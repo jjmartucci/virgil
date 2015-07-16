@@ -26,12 +26,6 @@ body{
   color: $color-text-on-light;
 }
 
-
-.styleguide-nav-header{
-  text-transform: uppercase;
-  font-size: $base-font-size;
-}
-
 #nav{
   transform: translateX(-300px);
   transition: all .2s ease-in-out;
@@ -51,7 +45,8 @@ body{
     text-decoration:none;
 
     &:hover, &:focus{
-      color: $color-primary;
+      color: $nav-text-color-hover;
+      text-decoration: underline;
     }
   }
 
@@ -59,9 +54,15 @@ body{
     transform: translateX(0);
   }
 
-  .styleguide-nav{
-    height: calc(100vh - 264px);
-    overflow: scroll;
+}
+
+.styleguide-nav{
+  height: calc(100vh - 71px);
+  overflow: scroll;
+
+  &__header{
+    text-transform: uppercase;
+    font-size: $base-font-size;
   }
 }
 
@@ -78,59 +79,116 @@ body{
   }
 }
 
-.styleguide-item{
-  margin-bottom: 40px;
-  padding-bottom: 20px;
-  border-bottom: 1px solid $color-text-on-dark;
-}
-
 #menu-toggle{
   position: fixed;
-  bottom: 20px;
-  left: 20px;
+  bottom: 0;
+  left: 0;
   z-index: 100;
-  width: 260px;
-  transform: translateY(160px);
+  background: transparent;
+  text-align: left;
+  padding: 15px;
+  width: 300px;
+
   transition: $default-transition;
   z-index: $aboveNav;
 
   body.menu-open &{
-    transform: translateY(0);
+    background: $toggle-background;
   }
 }
 
 .button--nav-toggle{
-  display: block;
-  width: 100%;
-  margin-bottom: 10px;
-  background: $color-base;
-  font-size: 12px;
+  border: 1px solid $nav-background-color;
+  padding: 10px 0;
+  width: calc((100% - 30px) / 4);
+  margin-right: 10px;
+  transition: $default-transition;
+
+  &:last-child{
+    margin-right: 0;
+  }
+
+  svg{
+    width: 24px;
+    height: 24px;
+  }
+  body.menu-open &{
+    border: 1px solid $nav-text-color;
+    background: transparent;
+
+    &:hover{
+      border: 1px solid $nav-text-color-hover;
+    }
+
+  }
+
+  &:focus{
+    outline: 0;
+  }
+
+  &.button--inactive{
+    opacity: .5;
+  }
+
+}
+
+.button--menu-toggle{
+  background: white;
+  svg{
+    path{
+      fill: $color-primary;
+    }
+    width: 24px;
+    height: 24px;
+  }
 
   body.menu-open &{
+    border: 1px solid white;
     background: transparent;
+    svg{
+      path{
+        fill: white;
+      }
+    }
   }
 }
 
-.styleguide-item-notes{
-
-  &.notes-hidden{
-    display: none;
+.button--can-hide{
+  display: none;
+  body.menu-open &{
+    display: inline-block;
   }
 }
 
-.compiled-code{
+.styleguide-item{
+  margin-bottom: 40px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid $nav-text-color;
 
-  &.code-hidden{
-    display: none;
+  &__notes{
+    &.notes-hidden{
+      display: none;
+    }
   }
+
+  &__compiled-code{
+    &.code-hidden{
+      display: none;
+    }
+  }
+
+  &__react-code {
+    &.code-hidden{
+      display: none;
+    }
+  }
+
 }
 
-.react-code {
 
-  &.code-hidden{
-    display: none;
-  }
-}
+
+
+
 
 
 

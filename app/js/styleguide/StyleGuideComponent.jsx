@@ -12,20 +12,20 @@ var StyleGuideComponent = React.createClass({
         var string = reactToJsx(<this.props.code.func {...mockData}/>);
         var reactCode = false;
         if(!this.props.code.hideReactMarkup){
-            reactCode = <div className="react-code"><pre><code>{string}</code></pre></div>
+            reactCode = <div className="styleguide-item__react-code"><pre><code>{string}</code></pre></div>
         }
         var codeBlock = false;
         if(!this.props.code.hideCode){
-            codeBlock = <div className="compiled-code"></div>
+            codeBlock = <div className="styleguide-item__compiled-code"></div>
         }
 
         return (
             <section className="styleguide-item" id={this.props.code.name}>
                 <h2>{this.props.code.title}</h2>
-                <div className="styleguide-item-notes">
+                <div className="styleguide-item__notes">
                     {this.props.code.notes}
                 </div>
-                <div className="react-component">
+                <div className="styleguide-item__react-component">
                     <this.props.code.func {...mockData} />
                 </div>
             { reactCode }

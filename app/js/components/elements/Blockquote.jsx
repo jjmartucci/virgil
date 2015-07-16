@@ -1,5 +1,5 @@
-var React = require("react");
-style = require("sass/components/elements/_blockquote.scss");
+const React = require("react");
+let style = require("sass/components/elements/_blockquote.scss");
 
 var Blockquote = React.createClass({
 

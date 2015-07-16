@@ -3,11 +3,11 @@
 
 $box-border-color: #555;
 
-$color-primary: #A9D8E8 !default;
-$color-accent-one: #E09FA3 !default;
-$color-base: #A8548F !default;
-$color-text-on-dark: #EDF1FF;
-$color-text-on-light: #514646;
+$color-primary: #627384 !default;
+$color-accent-one: #E55B6B !default;
+$color-base: #4C4844 !default;
+$color-text-on-dark: #E5E5E5;
+$color-text-on-light: #252C33;
 $color-alert: hsl(0, 60%, 50%);
 
 // Typography
@@ -19,8 +19,7 @@ $base-font-size: 15px;
 $font-size-small: $base-font-size * .8;
 $font-size-large: $base-font-size * 1.2;
 $base-line-height: 1.5;
-$nav-background-color: $color-base;
-$nav-text-color: $color-text-on-dark;
+
 
 $base-header-size: $base-font-size * 1.2;
 $base-header-line-height: 1.2;
@@ -68,7 +67,10 @@ $flexbox-hero-copy-size: 18px;
 
 
 // Transitions
-$default-transition: all .3s ease-in-out;
+$default-transition: all .2s ease-in-out;
 
 // Styleguide Specific Variables
-
+$nav-background-color: $color-primary;
+$nav-text-color: $color-text-on-dark;
+$nav-text-color-hover: lighten($color-accent-one, 10%);
+$toggle-background: darken($color-primary, 10%);

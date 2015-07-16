@@ -1,7 +1,7 @@
 var React = require("react");
 var Button = require("js/components/elements/Button");
 var Input = require("js/components/elements/Input");
-styles = require("sass/components/blocks/_login-form.scss");
+let styles = require("sass/components/blocks/_login-form.scss");
 
 var LoginForm = React.createClass({
 

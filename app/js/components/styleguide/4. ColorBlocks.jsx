@@ -1,6 +1,6 @@
 var Chromath = require('chromath');
 var React = require("react");
-style = require("sass/components/styleguide/_color-blocks.scss");
+let style = require("sass/components/styleguide/_color-blocks.scss");
 
 var ColorCubes = React.createClass({
     statics: {
@@ -8,7 +8,7 @@ var ColorCubes = React.createClass({
         hideCode: true,
         mock: function(){
             return(
-            {colors: ['#A9D8E8', '#E09FA3', '#A8548F', '#EDF1FF', '#514646' ]}
+            {colors: ['#627384', '#E55B6B', '#4C4844', '#E5E5E5', '#252C33' ]}
             )
         }
     },

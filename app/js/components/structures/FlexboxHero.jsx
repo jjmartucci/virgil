@@ -1,7 +1,7 @@
 var Chromath = require('chromath');
 var React = require("react");
 var heroImage = require("images/hero.jpg");
-style = require("sass/components/structures/_flexbox-hero.scss");
+var style = require("sass/components/structures/_flexbox-hero.scss");
 
 var FlexboxHero = React.createClass({
     statics: {

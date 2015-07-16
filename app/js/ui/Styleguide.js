@@ -7,8 +7,9 @@ var styleguideUI = function() {
 
     for (var i = 0; i < renderedComponents.length; i++) {
 
-        var component = renderedComponents[i].getElementsByClassName('react-component');
-        var compiledCode = renderedComponents[i].getElementsByClassName('compiled-code');
+        var component = renderedComponents[i].getElementsByClassName('styleguide-item__react-component');
+        var compiledCode = renderedComponents[i].getElementsByClassName('styleguide-item__compiled-code');
+
 
         if (compiledCode.length) {
             var componentClone = component[0].cloneNode('deep');

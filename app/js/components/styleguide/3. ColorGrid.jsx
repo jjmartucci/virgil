@@ -1,6 +1,6 @@
-var Chromath = require('chromath');
-var React = require("react");
-style = require("sass/components/styleguide/_color-grid.scss");
+const Chromath = require('chromath');
+const React = require("react");
+let style = require("sass/components/styleguide/_color-grid.scss");
 
 var ColorRow = React.createClass({
     render: function(){
@@ -25,7 +25,7 @@ var ColorGrid = React.createClass({
         mock: function(){
             return(
             {
-                colors: ['#A9D8E8', '#E09FA3', '#A8548F', '#EDF1FF', '#514646' ],
+                colors: ['#627384', '#E55B6B', '#4C4844', '#E5E5E5', '#252C33' ],
                 steps: [-5, -3, 3, 5, 10, 20]
             }
             );

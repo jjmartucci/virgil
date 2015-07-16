@@ -2,7 +2,7 @@ var React = require("react");
 var Signup = require("js/components/blocks/SignupForm");
 var Login = require("js/components/blocks/LoginForm");
 
-style = require("sass/components/structures/_user-accounts.scss");
+let style = require("sass/components/structures/_user-accounts.scss");
 
 var UserAccount = React.createClass({
 

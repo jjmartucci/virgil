@@ -38,17 +38,5 @@ a.button{
     )
   }
 
-  &--nav-toggle{
-    @include button(
-      transparent,
-      $color-text-on-dark,
-      $color-text-on-dark,
-      $color-base,
-      darken($color-base, 10%),
-      $color-text-on-dark
-    );
-    width: 100%;
-    margin-bottom: 10px;
-  }
 }
 

@@ -1,5 +1,5 @@
 var React = require("react");
-styles = require("sass/components/elements/_headings.scss");
+var styles = require("sass/components/elements/_headings.scss");
 
 var Headings = React.createClass({
 

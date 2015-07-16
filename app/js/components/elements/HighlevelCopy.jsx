@@ -1,5 +1,5 @@
 var React = require("react");
-style = require("sass/components/elements/_highlevel-copy.scss");
+let style = require("sass/components/elements/_highlevel-copy.scss");
 
 var HighlevelCopy = React.createClass({
 
