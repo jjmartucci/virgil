@@ -182,7 +182,7 @@ var OffCanvas = React.createClass({
         return (
             <div id="menu-toggle">
                 <Constrainer
-                  placeholder="Limit to XXX pixels"
+                  placeholder="Limit to: XXXpx"
                   className="input"
                 />
                 <ActionButton

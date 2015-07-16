@@ -1,10 +1,12 @@
 const webpack = require("webpack");
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
 const path = require("path");
+const autoprefixer = require("autoprefixer");
+const csswring = require("csswring");
 
 const sassLoaders = [
     "css-loader",
-    "autoprefixer-loader?browsers=last 2 version",
+    "postcss-loader",
     "sass-loader?includePaths[]=" + path.resolve(__dirname, "./src"),
 ];
 
@@ -43,6 +45,9 @@ const config = {
         filename: "[name].js",
         path: path.join(__dirname, "./build"),
         publicPath: "/",
+    },
+    postcss: function(){
+        return [autoprefixer, csswring]
     },
     plugins: [
         new ExtractTextPlugin("[name].css"),
