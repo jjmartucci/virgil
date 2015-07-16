@@ -99,6 +99,9 @@ $default-transition: all .2s ease-in-out;
     the way it looks.
 **************************************************/
 
+$body-background-color: $color-text-on-dark;
+$main-background-color: white;
+
 $nav-background-color: $color-primary;
 $nav-text-color: $color-text-on-dark;
 $nav-text-color-hover: lighten($color-accent-one, 10%);

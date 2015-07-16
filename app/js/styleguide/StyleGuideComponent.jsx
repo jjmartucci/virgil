@@ -21,7 +21,7 @@ var StyleGuideComponent = React.createClass({
 
         return (
             <section className="styleguide-item" id={this.props.code.name}>
-                <h2>{this.props.code.title}</h2>
+                <h2 className="styleguide-item__title">{this.props.code.title}</h2>
                 <div className="styleguide-item__notes">
                     {this.props.code.notes}
                 </div>

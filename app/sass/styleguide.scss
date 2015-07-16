@@ -5,6 +5,7 @@
 
 @import "config/normalize";
 @import "config/variables";
+@import "mixins/clearfix";
 
 *{
   box-sizing: border-box;
@@ -24,6 +25,7 @@ body{
   font-size: $base-font-size;
   line-height: $base-line-height;
   color: $color-text-on-light;
+  background: $body-background-color;
 }
 
 #nav{
@@ -68,14 +70,20 @@ body{
 }
 
 #main{
+  @include clearfix;
+  background: $main-background-color;
   transition: all .2s linear;
   width: calc(100%);
   margin: 0 auto;
   max-width: $max-main-width;
+  padding-top: 0;
+  padding-bottom: 0;
 
   body.menu-open & {
-    width: calc(100% - (#{$nav-width} + #{$main-left-gutter} + #{$main-right-gutter}) );
-    margin-left: $nav-width + $main-left-gutter;
+    width: calc(100% - #{$nav-width} );
+    margin-left: $nav-width;
+    padding-left: $main-left-gutter;
+    padding-right: $main-right-gutter;
   }
 }
 
@@ -183,19 +191,28 @@ body{
   padding-bottom: 20px;
   border-bottom: 1px solid $nav-text-color;
 
+  &__title{
+    margin: $base-font-size * $base-header-line-height 20px;
+  }
+
   &__notes{
+    margin: 0 20px;
+
     &.notes-hidden{
       display: none;
     }
   }
 
   &__compiled-code{
+    margin: 0 20px;
     &.code-hidden{
       display: none;
     }
   }
 
   &__react-code {
+    margin: 0 20px;
+
     &.code-hidden{
       display: none;
     }
