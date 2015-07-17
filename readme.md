@@ -67,6 +67,8 @@ That's fine, you can also call a bundled CSS file, either in `index.html` as a n
 ### I'm using jQuery / 3rd party libraries for my UI
 Also fine, either require the compiled JS in main.jsx, or if you're mixing React with another library, look into using  [componentDidMount](https://facebook.github.io/react/docs/component-specs.html#mounting-componentdidmount).
 
+### What if I want to use Gulp in my build process?
+You can! There's a gulpfile included. `gulp virgil` will build the styleguide, `gulp virgil-server` will run the Webpack development server. 
 ## Requirements
 Node.
 
