@@ -59,8 +59,16 @@ Inside app:
 - index.html - Main page content.
 - main.jsx - Entry point to the app. 
 
+## FAQs
+### What if I don't want to tie my CSS/ SASS to components?
+That's fine, you can also call a bundled CSS file, either in `index.html` as a normal `link`, or in main.jsx, 
+```required('path/to/stylesheet')```
+
+### I'm using jQuery / 3rd party libraries for my UI
+Also fine, either require the compiled JS in main.jsx, or if you're mixing React with another library, look into using  [componentDidMount](https://facebook.github.io/react/docs/component-specs.html#mounting-componentdidmount).
+
 ## Requirements
-None. Everything displayed in the styleguide is HTML and JS.
+Node.
 
 ## Reference Guide
 - [Webpack Dev Server](http://webpack.github.io/docs/webpack-dev-server.html)

@@ -3,9 +3,74 @@
  * If you want to change the look of the styleguide itself, start here.
  */
 
-@import "config/normalize";
-@import "config/variables";
-@import "mixins/clearfix";
+@import "normalize";
+
+$base-font-family: 'Open Sans', sans-serif !default;
+$base-font-size: 15px !default;
+$base-line-height: 1.5 !default;
+$base-header-line-height: 1.2 !default;
+$semi-bold: 600;
+$bold: 700;
+
+$color-primary: #627384 !default;
+$color-accent-one: #E55B6B !default;
+$color-base: #4C4844 !default;
+$color-text-on-dark: #E5E5E5 !default;
+$color-text-on-light: #252C33 !default;
+
+/**** Z-INDICES ****/
+$below-base: -1;
+$base: 1;
+$nav: 500;
+$aboveNav: 600;
+$screen: 800;
+$modal: 900;
+
+$body-background-color: $color-text-on-dark;
+$main-background-color: white;
+
+$nav-background-color: $color-primary;
+$nav-text-color: $color-text-on-dark;
+$nav-text-color-hover: lighten($color-accent-one, 10%);
+$toggle-background: darken($color-primary, 10%);
+
+// This doesn't actually set the toggle-menu-height
+// It's used to calculate the nav menu height :-p
+$toggle-menu-height: 125px;
+
+$nav-width: 300px;
+$nav-padding: 20px;
+$main-left-gutter: 60px;
+$main-right-gutter: 20px;
+
+
+/* If you want to put your styleguide in container, use a pixel
+ value here. If you want it to flow the entire width of the page,
+ use:
+ $max-main-width: 100%;
+
+ Note: this has no effect on the single pages.
+*/
+$max-main-width: 1280px;
+
+/* Mixins */
+@mixin clearfix(){
+
+  &:before,
+  &:after {
+    content:"";
+    display:table;
+  }
+
+  &:after {
+    clear:both;
+  }
+
+  zoom:1; /* For IE 6/7 (trigger hasLayout) */
+
+}
+
+/* Styling Begins Here */
 
 *{
   box-sizing: border-box;
@@ -97,7 +162,7 @@ body{
   padding: 15px;
   width: $nav-width;
 
-  transition: $default-transition;
+  transition: all .2s ease-in-out;
   z-index: $aboveNav;
 
   body.menu-open &{
@@ -128,7 +193,7 @@ body{
   padding: 10px 0;
   width: calc((100% - 30px) / 4);
   margin-right: 10px;
-  transition: $default-transition;
+  transition: all .2s ease-in-out;
 
   &:last-child{
     margin-right: 0;
@@ -219,11 +284,3 @@ body{
   }
 
 }
-
-
-
-
-
-
-
-

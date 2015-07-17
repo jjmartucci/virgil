@@ -20,8 +20,6 @@ let initialRender = true;
 let singlePage = false;
 
 require("index.html");
-require("sass/components/_block-grid.scss");
-require("sass/components/_container.scss");
 
 // These are styles and javascript used only to create the styleguide
 require("sass/styleguide.scss");

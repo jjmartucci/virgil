@@ -4,12 +4,12 @@
 **************************************************/
 
   /**** COLORS *****/
-  $color-primary: #627384 !default;
-  $color-accent-one: #E55B6B !default;
-  $color-base: #4C4844 !default;
-  $color-text-on-dark: #E5E5E5;
-  $color-text-on-light: #252C33;
-  $color-alert: hsl(0, 60%, 50%);
+$color-primary: #627384;
+$color-accent-one: #E55B6B;
+$color-base: #4C4844;
+$color-text-on-dark: #E5E5E5;
+$color-text-on-light: #252C33;
+$color-alert: hsl(0, 60%, 50%);
 
   /**** TYPOGRAPHY ****/
   $sans-serif: 'Open Sans', sans-serif;
@@ -47,11 +47,13 @@
   $screen: 800;
   $modal: 900;
 
-
+  /**** TRANSITIONS ****/
+  $default-transition: all .2s ease-in-out;
 
 /**************************************************
     ELEMENTS
 **************************************************/
+
 /**** BUTTONS ****/
 $default-button-background: $color-base;
 $default-button-border-color: darken($color-base, 5%);
@@ -68,60 +70,24 @@ $alert-button-text-color: white;
     BLOCKS
 **************************************************/
 
+/**** BLOCK GRID ****/
+$box-border-color: $color-base;
 
 /**************************************************
     STRUCTURES
 **************************************************/
 
-/**************************************************
-    PAGES
-**************************************************/
-// Block grid
-$box-border-color: #555;
-
-// Modals
-$modal-border: $color-primary;
-$modal-background-color: white;
-
-// Flexbox Hero
+/**** FLEXBOX HERO ****/
 $flexbox-hero-title-color: white;
 $flexbox-hero-title-size: 64px;
 $flexbox-hero-copy-color: darken(white, 3%);
 $flexbox-hero-copy-size: 18px;
 
-// Transitions
-$default-transition: all .2s ease-in-out;
-
 /**************************************************
-    STYLEGUIDE SPECIFIC VARIABLES
-
-    These style the styleguide, start here if you want to change
-    the way it looks.
+    PAGES
 **************************************************/
 
-$body-background-color: $color-text-on-dark;
-$main-background-color: white;
-
-$nav-background-color: $color-primary;
-$nav-text-color: $color-text-on-dark;
-$nav-text-color-hover: lighten($color-accent-one, 10%);
-$toggle-background: darken($color-primary, 10%);
-
-// This doesn't actually set the toggle-menu-height
-// It's used to calculate the nav menu height :-p
-$toggle-menu-height: 125px;
-
-$nav-width: 300px;
-$nav-padding: 20px;
-$main-left-gutter: 60px;
-$main-right-gutter: 20px;
 
 
-/* If you want to put your styleguide in container, use a pixel
- value here. If you want it to flow the entire width of the page,
- use:
- $max-main-width: 100%;
 
- Note: this has no effect on the single pages.
-*/
-$max-main-width: 1280px;
+

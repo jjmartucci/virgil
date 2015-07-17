@@ -1,6 +1,6 @@
 var React = require("react");
 
-require ("sass/components/_block-grid.scss");
+require ("sass/components/blocks/_block-grid.scss");
 
 
 var BlockGrid = React.createClass({

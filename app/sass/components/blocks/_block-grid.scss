@@ -1,5 +1,5 @@
-@import "../config/variables";
-@import "../mixins/block-grid";
+@import "../../config/variables";
+@import "../../mixins/block-grid";
 
 .block-grid{
   @include block-grid(4, 20px, '.block-grid-item');
