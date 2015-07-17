@@ -1,8 +1,8 @@
 const webpack = require("webpack");
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
-const path = require("path");
 const autoprefixer = require("autoprefixer");
 const csswring = require("csswring");
+const path = require("path");
 
 const sassLoaders = [
     "css-loader",
