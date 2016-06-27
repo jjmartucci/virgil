@@ -44,6 +44,7 @@
     "webpack-dev-server": "^1.10.1"
   },
   "devDependencies": {
-    "gulp": "^3.9.0"
+    "gulp": "^3.9.0",
+    "node-sass": "^3.4.2"
   }
 }
